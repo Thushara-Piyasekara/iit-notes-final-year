@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "fd5e2a9543df2849",
+        "id": "ee81d61f047a02e6",
         "type": "tabs",
         "children": [
           {
-            "id": "b770d5442e355539",
+            "id": "fd1b879313f83093",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Time Tables.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 223.5
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "Time Tables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "Time Tables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "Time Tables.md"
               }
             }
           },
@@ -176,8 +176,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b71ac319e7d5373e",
+  "active": "fd1b879313f83093",
   "lastOpenFiles": [
+    "L6-sem1-tentative-timetable 1.md",
+    "Time Tables.md",
+    "Resources/Pasted image 20240924181424.png",
+    "Resources/L6-sem1-tentative-timetable 1",
+    "Resources/L6-sem1-tentative-timetable",
+    "Resources/Pasted image 20240924181351.png",
+    "Resources",
+    "Pasted image 20240924181251.png",
+    "Welcome.md",
+    "L6-sem1-tentative-timetable",
+    "Unconfirmed 645877.crdownload",
     "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/Meta Large Language Model Compiler- Foundation Models of Compiler Optimization.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/MLGO- a Machine Learning Guided Compiler  Optimizations Framework.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/Machine Learning in Compilers - Past, Present and Future.md",
@@ -201,9 +212,6 @@
     "FYP Ideas/Compiler Optimization using Machine Learning/Compiler Optimization Using ML - Idea Summary.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/New Idea.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Thoughts so far 1.md",
-    "Concepts/Java Flight Recorder.md",
-    "Excalidraw/Drawing 2024-07-13 10.53.45.excalidraw.md",
-    "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/Towards a Serverless Java Runtime.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Project Proposal",
     "Resources/Pasted image 20240711001643.png",
     "Resources/Pasted image 20240710221419.png",
@@ -214,10 +222,6 @@
     "Excalidraw",
     "FYP Ideas/Compiler Optimization using Machine Learning/Domain Experts",
     "Concepts",
-    "Resources",
-    "FYP Ideas/Compiler Optimization using Machine Learning",
-    "FYP Ideas",
-    "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
