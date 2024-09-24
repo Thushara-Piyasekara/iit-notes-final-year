@@ -1,0 +1,9 @@
+{
+  "promptDelete": false,
+  "strictLineBreaks": false,
+  "trashOption": "system",
+  "propertiesInDocument": "hidden",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "attachmentFolderPath": "Resources"
+}

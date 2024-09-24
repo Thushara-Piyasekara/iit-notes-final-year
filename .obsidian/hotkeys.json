@@ -1,0 +1,107 @@
+{
+  "file-explorer:open": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "obsidian-git:list-changed-files": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "2"
+    }
+  ],
+  "file-explorer:reveal-active-file": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "`"
+    }
+  ],
+  "editor:swap-line-down": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "editor:swap-line-up": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "window:zoom-in": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "="
+    }
+  ],
+  "window:zoom-out": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "-"
+    }
+  ],
+  "editor:insert-wikilink": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "L"
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    },
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ],
+  "file-explorer:move-file": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ]
+}

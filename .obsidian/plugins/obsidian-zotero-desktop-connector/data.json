@@ -1,0 +1,27 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "Zotero/Papers",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 90,
+  "citeFormats": [
+    {
+      "name": "Westminster Harvard",
+      "format": "formatted-citation",
+      "cslStyle": "harvard-university-of-westminster"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Import #1",
+      "outputPathTemplate": "{{citekey}}.md",
+      "imageOutputPathTemplate": "{{citekey}}/",
+      "imageBaseNameTemplate": "image"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "exeOverridePath": "",
+  "shouldConcat": true
+}
