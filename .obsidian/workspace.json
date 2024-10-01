@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "2412af66aea7b29a",
@@ -207,8 +206,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b71ac319e7d5373e",
+  "active": "fd1b879313f83093",
   "lastOpenFiles": [
+    "Resources/Pasted image 20241001122511.png",
+    "Resources/L6 SE -Group 1.pdf.part",
+    "Resources/Pasted image 20241001121714.png",
     "Formal Methods/Week 1.md",
     "Mobile Native/Untitled.md",
     "Mobile Native",
@@ -244,7 +246,6 @@
     "Concepts/Devirtualization.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Backup Ideas/Class optimization using JAOTC.md",
     "TODO.md",
-    "FYP Ideas/Compiler Optimization using Machine Learning/Compiler Optimization Using ML - Idea Summary.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Project Proposal",
     "Resources/Pasted image 20240711001643.png",
     "Resources/Pasted image 20240710221419.png",
@@ -252,7 +253,6 @@
     "Resources/Pasted image 20240710221404.png",
     "Resources/Pasted image 20240710221253.png",
     "FYP Ideas/Compiler Optimization using Machine Learning/Backup Ideas",
-    "Excalidraw",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
