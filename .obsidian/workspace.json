@@ -4,43 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ee81d61f047a02e6",
+        "id": "172916961f02f423",
         "type": "tabs",
-        "dimension": 78.58672376873662,
         "children": [
           {
-            "id": "fd1b879313f83093",
+            "id": "30e1897b070f2a08",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 1/Lecture 1.pdf"
+                "file": "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf"
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "d892fa5b002855e2",
-        "type": "tabs",
-        "dimension": 21.413276231263385,
-        "children": [
-          {
-            "id": "1d11b7f809558820",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Methods/Week 2/Tutorial/Week 2 - Tutorial.pdf"
-              }
-            }
-          },
-          {
-            "id": "fccc0da40d7a5151",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
             }
           }
         ]
@@ -93,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5,
-    "collapsed": true
+    "width": 223.5
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -110,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formal Methods/Week 2/Tutorial/Week 2 - Tutorial.pdf",
+                "file": "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formal Methods/Week 2/Tutorial/Week 2 - Tutorial.pdf",
+                "file": "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formal Methods/Week 2/Tutorial/Week 2 - Tutorial.pdf"
+                "file": "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf"
               }
             }
           },
@@ -202,22 +175,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1d11b7f809558820",
+  "active": "30e1897b070f2a08",
   "lastOpenFiles": [
-    "Formal Methods/Week 2/Tutorial/Week 2 - Tutorial.pdf",
+    "Concurrent Programming/Week 1/other/Lecture01.zip",
+    "Concurrent Programming/Week 1/other/Unconfirmed 514529.crdownload",
+    "Concurrent Programming/Week 1/other/CP Lecture 01 2024(1).docx",
+    "Concurrent Programming/Week 1/other/Unconfirmed 246016.crdownload",
+    "Concurrent Programming/Week 1/other/CP Lecture 01 2024.docx",
+    "Concurrent Programming/Week 1/other/Unconfirmed 830165.crdownload",
+    "Concurrent Programming/Week 1/other/Dining_Philosophers_Pack(2).pdf",
+    "Concurrent Programming/Week 1/other/Dining_Philosophers_Pack(2).pdf.crdownload",
+    "Concurrent Programming/Week 1/other/StudentBankAccount_Roles(1).pdf",
+    "Concurrent Programming/Week 1/other/StudentBankAccount_Roles(1).pdf.crdownload",
+    "Concurrent Programming/Week 1/other/DRINKS.lts",
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
-    "Formal Methods/Week 1/Lecture 1.pdf",
+    "Formal Methods/Week 2/Tutorial/Untitled.md",
     "Time Tables.md",
+    "Resources/Pasted image 20241002111512.png",
     "Mobile Native/Untitled.md",
-    "Formal Methods/Week 2/Tutorial/PaperRound_B-Machine (1).pdf",
-    "Formal Methods/Week 2/Lecture 2.pdf",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
-    "Formal Methods/Week 2/Tutorial/Sets.mch",
-    "Formal Methods/Week 2/Tutorial/Unconfirmed 358540.crdownload",
-    "Formal Methods/Week 2/Tutorial",
-    "Formal Methods/Week 2/PaperRound_B-Machine (1).pdf.crdownload",
-    "Formal Methods/Week 2/T1.pdf.crdownload",
-    "Formal Methods/Week 2/bl2_sets.pdf.crdownload",
     "Resources/Pasted image 20241001122511.png",
     "Resources/Pasted image 20240924181424.png",
     "Resources/Pasted image 20240924181351.png",
@@ -243,12 +219,10 @@
     "Concepts/Final Keyword - Java.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Project Proposal/Notes from project proposal lecture.md",
     "Concepts/Devirtualization.md",
-    "FYP Ideas/Compiler Optimization using Machine Learning/Backup Ideas/Class optimization using JAOTC.md",
     "Resources/Pasted image 20240711001643.png",
     "Resources/Pasted image 20240710221419.png",
     "Resources/Pasted image 20240711013410.png",
     "Resources/Pasted image 20240710221404.png",
-    "Resources/Pasted image 20240710221253.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

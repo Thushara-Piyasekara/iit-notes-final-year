@@ -1,0 +1,36 @@
+// Drinks Vending Machine & Customer system
+
+
+// The drinks vending machine process
+
+DRINKS = (   red  -> coffee -> DRINKS
+           | 
+             blue -> tea    -> DRINKS
+	     ) .
+
+
+////////////////////////////////////////////////
+
+/* NOTES:
+
+   "." - all process definitions are between "( ... )" & must end 
+         with a "."
+
+   "|"  - choice operator, a bit like "if", but NOT the same as "if"
+
+   "->"  - action prefix, this is like ";" in sequential programs, 
+           i.e ordering actions
+
+   Example of Recursion:
+
+     Factorial  n! = n * (n - 1)!,  & 1! = 1
+     e.g. 
+     3! = 3 * 2! = 3 * 2 * 1! = 3*2*1
+
+*/
+
+
+// DRINKS2 = (   blue -> tea    -> DRINKS
+//           | 
+//             red  -> coffee -> DRINKS 
+//	     ) .
