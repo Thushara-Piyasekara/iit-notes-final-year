@@ -16,14 +16,6 @@
       "key": "C"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "1"
-    }
-  ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
@@ -102,6 +94,14 @@
         "Mod"
       ],
       "key": "M"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "`"
     }
   ]
 }

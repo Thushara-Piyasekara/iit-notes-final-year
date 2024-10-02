@@ -4,16 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "172916961f02f423",
+        "id": "f815825e380aef40",
         "type": "tabs",
+        "dimension": 62.63383297644539,
         "children": [
           {
-            "id": "30e1897b070f2a08",
+            "id": "39fb702d793370c1",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf"
+                "file": "Formal Methods/Week 2/Lecture 2.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "a819374e4d85dea5",
+        "type": "tabs",
+        "dimension": 37.3661670235546,
+        "children": [
+          {
+            "id": "b2b9ecb89bf4b770",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formal Methods/Week 2/Week 2 Lec notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -67,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 223.5
+    "width": 378.5,
+    "collapsed": true
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -83,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf",
+                "file": "Formal Methods/Week 2/Week 2 Lec notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf",
+                "file": "Formal Methods/Week 2/Week 2 Lec notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf"
+                "file": "Formal Methods/Week 2/Week 2 Lec notes.md"
               }
             }
           },
@@ -175,25 +196,30 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "30e1897b070f2a08",
+  "active": "b2b9ecb89bf4b770",
   "lastOpenFiles": [
+    "Formal Methods/Week 2/Lecture 2.pdf",
+    "Formal Methods/Week 2/Week 2 Lec notes.md",
+    "Resources/Pasted image 20241002151356.png",
+    "Resources/Pasted image 20241002144757.png",
+    "Resources/Pasted image 20241002144657.png",
+    "Time Tables.md",
+    "Formal Methods/Week 2/Week 2 notes.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf",
+    "Concurrent Programming/Week 1/other/StudentBankAccount_Roles(1).pdf",
+    "Concurrent Programming/Week 1/other/Dining_Philosophers_Pack(2).pdf",
+    "Concurrent Programming/Week 1/other/CP Lecture 01 2024 with edits.docx.docx",
+    "Concurrent Programming/Week 1/other/CP Lecture 01 2024.docx",
+    "Concurrent Programming/Week 1/CP Lecture 01 2024 PDF version.pdf",
+    "Concurrent Programming/Week 1/lu1352768ld7f.tmp",
     "Concurrent Programming/Week 1/other/Lecture01.zip",
     "Concurrent Programming/Week 1/other/Unconfirmed 514529.crdownload",
-    "Concurrent Programming/Week 1/other/CP Lecture 01 2024(1).docx",
-    "Concurrent Programming/Week 1/other/Unconfirmed 246016.crdownload",
-    "Concurrent Programming/Week 1/other/CP Lecture 01 2024.docx",
-    "Concurrent Programming/Week 1/other/Unconfirmed 830165.crdownload",
-    "Concurrent Programming/Week 1/other/Dining_Philosophers_Pack(2).pdf",
-    "Concurrent Programming/Week 1/other/Dining_Philosophers_Pack(2).pdf.crdownload",
-    "Concurrent Programming/Week 1/other/StudentBankAccount_Roles(1).pdf",
-    "Concurrent Programming/Week 1/other/StudentBankAccount_Roles(1).pdf.crdownload",
-    "Concurrent Programming/Week 1/other/DRINKS.lts",
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
     "Formal Methods/Week 2/Tutorial/Untitled.md",
-    "Time Tables.md",
     "Resources/Pasted image 20241002111512.png",
     "Mobile Native/Untitled.md",
-    "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Resources/Pasted image 20241001122511.png",
     "Resources/Pasted image 20240924181424.png",
     "Resources/Pasted image 20240924181351.png",
@@ -216,13 +242,7 @@
     "Concepts/Syntax Tree.md",
     "FYP Ideas/Technical Experts vs Domain Experts.md",
     "FYP Ideas/Technical Experts.md",
-    "Concepts/Final Keyword - Java.md",
-    "FYP Ideas/Compiler Optimization using Machine Learning/Project Proposal/Notes from project proposal lecture.md",
-    "Concepts/Devirtualization.md",
     "Resources/Pasted image 20240711001643.png",
-    "Resources/Pasted image 20240710221419.png",
-    "Resources/Pasted image 20240711013410.png",
-    "Resources/Pasted image 20240710221404.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
