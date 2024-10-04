@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "f815825e380aef40",
+        "id": "19497ca747b3a4b1",
         "type": "tabs",
-        "dimension": 62.63383297644539,
+        "dimension": 71.94860813704497,
         "children": [
           {
-            "id": "39fb702d793370c1",
+            "id": "a57b0e7f3fd31fc6",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 2/Lecture 2.pdf"
+                "file": "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf"
               }
             }
           }
@@ -23,7 +23,7 @@
       {
         "id": "a819374e4d85dea5",
         "type": "tabs",
-        "dimension": 37.3661670235546,
+        "dimension": 28.051391862955033,
         "children": [
           {
             "id": "b2b9ecb89bf4b770",
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Methods/Week 2/Week 2 Lec notes.md",
+                "file": "Concurrent Programming/Week 2/Lecture 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formal Methods/Week 2/Lecture 2.pdf",
+                "file": "Concurrent Programming/Week 2/Lecture 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formal Methods/Week 2/Lecture 2.pdf",
+                "file": "Concurrent Programming/Week 2/Lecture 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formal Methods/Week 2/Lecture 2.pdf"
+                "file": "Concurrent Programming/Week 2/Lecture 2.md"
               }
             }
           },
@@ -196,10 +196,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "39fb702d793370c1",
+  "active": "b2b9ecb89bf4b770",
   "lastOpenFiles": [
+    "Resources/Pasted image 20241004112810.png",
+    "Resources/Pasted image 20241004112737.png",
+    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
+    "Concurrent Programming/Week 2/Lecture 2.md",
+    "Resources/Pasted image 20241004111155.png",
+    "Excalidraw/Drawing 2024-10-04 11.04.18.excalidraw.md",
+    "Excalidraw",
+    "Resources/Pasted image 20241004110317.png",
+    "Resources/Pasted image 20241004104012.png",
+    "Concurrent Programming/ltsCache/week2.lts",
+    "Concurrent Programming/ltsCache",
+    "Resources/Pasted image 20241004085540.png",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Formal Methods/Week 2/Lecture 2.pdf",
+    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf.crdownload",
+    "Concurrent Programming/Week 2",
     "Resources/Pasted image 20241002151356.png",
     "Resources/Pasted image 20241002144757.png",
     "Resources/Pasted image 20241002144657.png",
@@ -210,22 +224,12 @@
     "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf",
     "Concurrent Programming/Week 1/other/StudentBankAccount_Roles(1).pdf",
     "Concurrent Programming/Week 1/other/Dining_Philosophers_Pack(2).pdf",
-    "Concurrent Programming/Week 1/other/CP Lecture 01 2024 with edits.docx.docx",
-    "Concurrent Programming/Week 1/other/CP Lecture 01 2024.docx",
-    "Concurrent Programming/Week 1/CP Lecture 01 2024 PDF version.pdf",
-    "Concurrent Programming/Week 1/lu1352768ld7f.tmp",
-    "Concurrent Programming/Week 1/other/Lecture01.zip",
-    "Concurrent Programming/Week 1/other/Unconfirmed 514529.crdownload",
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
     "Formal Methods/Week 2/Tutorial/Untitled.md",
     "Resources/Pasted image 20241002111512.png",
     "Mobile Native/Untitled.md",
     "Resources/Pasted image 20241001122511.png",
-    "Resources/Pasted image 20240924181424.png",
-    "Resources/Pasted image 20240924181351.png",
-    "Resources/Pasted image 20241001121714.png",
     "L6-sem1-tentative-timetable 1.md",
-    "Pasted image 20240924181251.png",
     "Welcome.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/Meta Large Language Model Compiler- Foundation Models of Compiler Optimization.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/MLGO- a Machine Learning Guided Compiler  Optimizations Framework.md",
@@ -240,9 +244,6 @@
     "Concepts/LLVM Optimization Levels.md",
     "Concepts/Moore's Law.md",
     "Concepts/Syntax Tree.md",
-    "FYP Ideas/Technical Experts vs Domain Experts.md",
-    "FYP Ideas/Technical Experts.md",
-    "Resources/Pasted image 20240711001643.png",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

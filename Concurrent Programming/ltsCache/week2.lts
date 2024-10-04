@@ -1,0 +1,27 @@
+//ATM = (houseHusband -> HOUSE_HUSBAND | careerMindedWife -> CAREER_MINDED_WIFE),
+//HOUSE_HUSBAND = (withdrawMoney -> ATM),
+//CAREER_MINDED_WIFE = (withdrawMoney -> ATM | depositMoney -> ATM).
+
+//// Traffic Light
+TRAFFIC_LIGHT = (red -> orangeRed -> green -> orange -> TRAFFIC_LIGHT).
+
+///// Non-determinism
+
+//COIN = (toss -> heads -> COIN |toss -> tails -> COIN).
+
+//// Activity1
+//DRINKS = (blue -> tea -> DRINKS | red -> coffee -> DRINKS).
+
+
+////Activity2
+//PROC1 = (act1 -> act3 -> PROC1 | act1 -> act2 -> PROC1).
+
+////Activity3
+//PROC2 = (act1 -> (act2 -> PROC2 | act3 -> PROC2)).
+
+/////// Alphabets
+
+//alphabet(DRINKS) = { red, blue, coffee, tea }
+
+
+
