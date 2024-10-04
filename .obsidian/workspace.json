@@ -4,26 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "19497ca747b3a4b1",
-        "type": "tabs",
-        "dimension": 71.94860813704497,
-        "children": [
-          {
-            "id": "a57b0e7f3fd31fc6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "a819374e4d85dea5",
         "type": "tabs",
-        "dimension": 28.051391862955033,
         "children": [
           {
             "id": "b2b9ecb89bf4b770",
@@ -87,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 378.5,
-    "collapsed": true
+    "width": 286.5024719238281
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -196,7 +177,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b2b9ecb89bf4b770",
+  "active": "b71ac319e7d5373e",
   "lastOpenFiles": [
     "Resources/Pasted image 20241004112810.png",
     "Resources/Pasted image 20241004112737.png",
