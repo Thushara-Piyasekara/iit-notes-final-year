@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formal Methods/Week 2/Week 2 Lec notes.md",
+                "file": "Formal Methods/Week 2/Lecture 2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formal Methods/Week 2/Week 2 Lec notes.md",
+                "file": "Formal Methods/Week 2/Lecture 2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formal Methods/Week 2/Week 2 Lec notes.md"
+                "file": "Formal Methods/Week 2/Lecture 2.pdf"
               }
             }
           },
@@ -196,10 +196,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b2b9ecb89bf4b770",
+  "active": "39fb702d793370c1",
   "lastOpenFiles": [
-    "Formal Methods/Week 2/Lecture 2.pdf",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
+    "Formal Methods/Week 2/Lecture 2.pdf",
     "Resources/Pasted image 20241002151356.png",
     "Resources/Pasted image 20241002144757.png",
     "Resources/Pasted image 20241002144657.png",
