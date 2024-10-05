@@ -20,7 +20,7 @@ TRAFFIC_LIGHT = (red -> redOrange -> green -> orange -> TRAFFIC_LIGHT).
 
 #### Action Choice
 - Used to handle `if-else` scenarios.
-- Denoted witj `|` (pipe) symbol between two actions.
+- Denoted with `|` (pipe) symbol between two actions.
 	- ( x -> P | y -> Q )
 #### Non Deterministic Choice
 
@@ -29,7 +29,7 @@ COIN = (toss -> heads -> COIN |toss -> tails -> COIN).
 ```
 
 When two choice actions has the same name, one of the choices will be taken randomly.
-
+[[TODO]] Check how this works
 
 ### Activity 2
 Reverse engineer the FSP,
@@ -63,8 +63,6 @@ TRAFFIC_LIGHT = (red -> orangeRed -> green -> orange -> TRAFFIC_LIGHT)
 ```
 
 ```
-traces (TRAFFIC_LIGHT) ={<>, <red>, <red, orangeRed>, <red, orangeRed, green>, <red, orangeRed, green, orange>, <red, orangeRed, green, orange, red>, ...}
-```
-
+traces (TRAFFIC_LIGHT) ={<>, <red>, <red, orangeRed>, <red, orangeRed, green>, <red, orangeRed, green, orange>, <red, orangeRed, green, orange, red>, ...} ```
 
 
