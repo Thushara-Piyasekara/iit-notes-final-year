@@ -23,7 +23,7 @@
 	- This means power sets are a `set of sets`.
 - It's cardinality can be calculated by,
 	![[Pasted image 20241002144657.png]]
-- Example, 
+- For Example, 
 	![[Pasted image 20241002144757.png]]
 
 ## Activity - pg 23

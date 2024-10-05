@@ -63,6 +63,5 @@ TRAFFIC_LIGHT = (red -> orangeRed -> green -> orange -> TRAFFIC_LIGHT)
 ```
 
 ```
-traces (TRAFFIC_LIGHT) ={<>, <red>, <red, orangeRed>, <red, orangeRed, green>, <red, orangeRed, green, orange>, <red, orangeRed, green, orange, red>, ...} ```
-
-
+traces (TRAFFIC_LIGHT) ={<>, <red>, <red, orangeRed>, <red, orangeRed, green>, <red, orangeRed, green, orange>, <red, orangeRed, green, orange, red>, ...} 
+```
