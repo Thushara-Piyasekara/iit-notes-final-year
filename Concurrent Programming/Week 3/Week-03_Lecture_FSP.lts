@@ -1,0 +1,594 @@
+/* **********************************************
+  6SENG006W Concurrent Programming
+  Paul Howells
+  Week 03 Lecture: All FSP programs
+  9/10/2022
+
+********************************************** */
+
+////////////////////////////////////////////////
+
+//  
+/*  
+
+// range INT = 0..3
+
+// 
+BUFF = ( in[ i : 0..3 ] -> out[i] -> BUFF ) .
+
+// 
+*/
+
+//  
+/* 
+BUFF1 = (    in[0] -> out[0] -> BUFF1
+          |  in[1] -> out[1] -> BUFF1
+          |  in[2] -> out[2] -> BUFF1
+          |  in[3] -> out[3] -> BUFF1
+        ) .
+// 
+*/
+
+////////////////////////////////////////////////
+
+//  
+/* 
+
+const MAX_INT = 3
+
+range INT = 0 .. MAX_INT
+
+
+BUFF2  =  ( in[ i : INT ] -> STORE[ i ] ),
+
+STORE[ j : INT ]  =  ( out[ j ] -> BUFF2 ) .   // j = i
+
+// 
+*/
+
+
+// Expanded BUFF2
+//  
+/* 
+
+BUFF2 = (    in[0] -> STORE[ 0 ] 
+          |  in[1] -> STORE[ 1 ] 
+          |  in[2] -> STORE[ 2 ] 
+          |  in[3] -> STORE[ 3 ] 
+        ) ,
+
+STORE[ 0 ]  =  ( out[ 0 ] -> BUFF2 ) ,
+STORE[ 1 ]  =  ( out[ 1 ] -> BUFF2 ) ,
+STORE[ 2 ]  =  ( out[ 2 ] -> BUFF2 ) ,
+STORE[ 3 ]  =  ( out[ 3 ] -> BUFF2 ) . 
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+//  
+/* 
+
+const N = 1
+
+range IN  = 0 .. N
+range OUT = 0 .. 2*N
+
+
+SUM1  =  ( in[ a : IN ][ b : IN ]  ->  TOTAL1[ a + b ]  ) ,
+
+TOTAL1[ s : OUT ]  =  ( out[ s ]  ->  SUM1 ) .   // s = a+b 
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+// Try the Minimize "///" command option on this process
+// What effect does it have on the FSM?
+ 
+//  
+/* 
+
+const N = 1
+
+range IN  = 0 .. N
+range OUT = 0 .. 2*N
+
+SUM2  =  ( in[ a : IN ][ b : IN ]  ->  TOTAL2[ a ][ b ] ) ,
+
+TOTAL2[ x : IN ][ y : IN ]  =  ( out[ x + y ] -> SUM2 ) .   // x = a, y = b
+
+// 
+*/
+
+
+//  
+/*   Expanded SUM2:
+
+SUM2  =  (   in[ 0 ][ 0 ]  ->  TOTAL2[0][0] 
+           | in[ 0 ][ 1 ]  ->  TOTAL2[0][1]  
+           | in[ 1 ][ 0 ]  ->  TOTAL2[1][0]  
+           | in[ 1 ][ 1 ]  ->  TOTAL2[1][1] 
+         ) ,
+
+
+TOTAL2[ 0 ][ 0 ]  =  ( out[ 0 ]  ->  SUM2 ) ,
+TOTAL2[ 0 ][ 1 ]  =  ( out[ 1 ]  ->  SUM2 ) ,
+TOTAL2[ 1 ][ 0 ]  =  ( out[ 1 ]  ->  SUM2 ) ,
+TOTAL2[ 1 ][ 1 ]  =  ( out[ 2 ]  ->  SUM2 ) .
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+
+//  
+/* 
+const N = 5
+
+range INPUT = 0..N
+
+INDEXES_1  =  ( in[ i : INPUT ] 
+                    -> i_add_2      [i + 2] 
+			        -> i_subtract_1 [i - 1] 
+ 			        -> i_multiply_4 [i * 4] 
+                    -> i_divide_2   [i / 2] 
+                    -> i_remainder_3[i % 3] -> STOP
+              ) .
+// 
+*/
+
+//  
+/* 
+
+const N = 3
+
+range INPUT = 0..N
+
+INDEXES_3  =  ( in[ i : INPUT ] 
+                    -> add      [i][2][i + 2] 
+			        -> subtract [i][1][i - 1] 
+ 		            -> multiply [i][4][i * 4] 
+ 		            -> divide   [i][2][i / 2] 
+                    -> remainder[i][3][i % 3] -> STOP 
+              ) . 
+
+// 
+*/
+
+/* op[input][operand][result], 
+   result = input op operand, e.g. 7 = 5 + 2  */
+
+////////////////////////////////////////////////
+
+
+//  
+/* 
+const DEFAULT = 3
+
+BUFF3( N = DEFAULT )  =  ( in[ i : 0..N ]  ->  out[ i ] -> BUFF3 ) .
+
+// Calling it with N = 5:
+
+||USE_BUFF3 = ( BUFF3( 5 ) ) .
+
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+
+//  
+/*
+// PARAMS: LL - lower limit, UL - upper limit 
+
+const N = 5
+
+PARAMS_2( LL = 0, UL = N )  =  ( in[ i : LL..UL ]
+                                      -> add_2       [i][i + 2] 
+			                          -> subtract_1  [i][i - 1] 
+                                      -> multiply_4  [i][i * 4]  ->  STOP ) .
+// 
+*/
+
+
+// PARAMS: AN, SN & MN used for arithmetic & indexes 
+//  
+/* 
+
+const N = 5
+
+PARAMS_5( LL = 0, UL = N, AN = 2, SN = 1, MN = 4 ) 
+
+     =  (
+           in[ i : LL..UL ]
+           ->  add      [i][AN][i + AN]
+           ->  subtract [i][SN][i - SN]
+           ->  multiply [i][MN][i * MN]  -> STOP 
+        ) .
+// 
+*/
+
+////////////////////////////////////////////////
+
+
+//  
+/* 
+
+//  Boolean expressions
+
+const TRUE  = 1
+const FALSE = 0
+
+range BOOL  = FALSE .. TRUE
+
+//  
+/* 
+BOOL_AND  =  ( in[ p : BOOL ][q : BOOL ]
+                 -> and [p][q][ p & q] -> STOP ) .
+// 
+*/
+
+//  
+/* 
+BOOL_OR  =  ( in[ p : BOOL ][q : BOOL ]
+                -> or [p][q][ p | q] -> STOP ) .
+// 
+*/
+
+// 
+/* 
+BOOL_NOT  =  ( in[ p : BOOL ] -> not [p][ !p ] -> STOP ) .
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+
+//  
+/* 
+
+const ZERO    = 0
+const MAX_INT = 3
+
+range INT = ZERO .. MAX_INT
+
+IS_ZERO  =  ( in[ x : INT ] ->
+             
+                 if   ( x == ZERO )  
+                 then 
+                       ( isZero    -> IS_ZERO ) 
+                 else 
+                       ( isNotZero -> IS_ZERO ) 
+            ) .
+
+// 
+*/
+
+
+// NOTE: can use & - and, | - or, ! - not 
+//       and relations: <, <=, >, >=, ==, !=  
+ 
+////////////////////////////////////////////////
+
+
+// Guarded Command & Action Process
+// Version in the Lecture Notes
+//  
+/* 
+const False = 0
+const True  = 1
+
+range BOOL  = False .. True
+
+
+GUARDED  =  ( in[ b : BOOL ] ->
+
+                 (
+                     when ( b  )  guardTrue  -> GUARDED    // available when b is True
+                                                           // not available when b is False
+                   |  
+                     when ( !b )  guardFalse -> GUARDED    // available when b is False
+                                                           // not available when b is True
+                 )
+            ) .
+
+// 
+*/
+
+
+// Extended Version from the Q&A session.
+//  
+/* 
+const False = 0
+const True  = 1
+
+range BOOL  = False .. True
+
+
+GUARDED  =  ( in[ b : BOOL ] ->
+
+               (
+                   when ( b  )  guardTrue  -> GUARDED       // as above
+                 |  
+                   when ( !b )  guardFalse -> GUARDED       // as above
+                 |
+                   dontcareaboutGuard -> GUARDED            // same as "when ( True )"
+                 |
+                   when ( b == b ) couldbeTorF -> GUARDED   // same as "when ( True )" 
+                 |
+                   when ( b != b ) neverDone -> GUARDED     // same as "when( False )" 
+                                                            // never offered, so deleted. 
+                 )
+
+            ) .
+
+// 
+*/
+
+/*
+Note that since the last option:
+
+  when ( b != b ) neverDone -> GUARDED
+
+is equivalent to:
+
+  when ( False ) neverDone -> GUARDED
+
+so this choice option is never offered, so it is deleted from the program,
+you can see this by looking at its alphabet & its LTS graph, in that "neverDone" 
+is not included in either.
+
+*/
+
+
+////////////////////////////////////////////////
+
+
+//  
+/* 
+
+COUNT ( N = 5 ) = CT[0] ,
+
+CT[ i : 0..N ]  =  (   when( i < N ) inc  ->  CT[i+1] 
+                     | 
+                       when( i > 0 ) dec  ->  CT[i-1] 
+                   ) .
+
+// */
+
+////////////////////////////////////////////////
+
+//  
+/* 
+
+COUNTDOWN (N = 3)  =  ( start -> CTDN[N] ) ,
+
+CTDN[ i : 0..N ]   =  ( 
+                           when( i > 0 )  tick  ->  CTDN[ i - 1 ]
+                        |
+                           when( i == 0 ) beep  ->  STOP
+                        | 
+                           stop                 ->  STOP
+                      ) .
+
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+// SKIP - "successful termination" process 
+//  	   using the FSP process END.
+
+
+//  SKIP = END .
+
+
+////////////////////////////////////////////////
+
+
+//  NORMAL_HOMER  =  ( pickup_Doughnut -> eat -> mmmmmm -> NORMAL_HOMER ) .
+
+
+//  WEIRD_HOMER  =  ( pickup_Doughnut -> eat -> mmmmmm -> END ) .
+
+
+////////////////////////////////////////////////
+
+
+// Using the FSP process ERROR.
+
+// CHAOS = ERROR .
+
+//  FAULTYCLOCK = ( tick -> tock -> ERROR ) . 
+
+
+
+////////////////////////////////////////////////////////////
+//
+// Parallel Composition – “P||Q”
+//
+////////////////////////////////////////////////////////////
+
+
+//  
+/* 
+
+// Individual processes
+
+ITCH  =  ( scratch -> STOP ) .
+
+CONVERSE  =  ( think -> talk -> STOP ) .
+
+
+// Concurrent System
+
+|| CONVERSE_ITCH = ( ITCH || CONVERSE ) .
+
+
+// 
+*/
+
+
+////////////////////////////////////////////////
+
+
+/*  Alphabet Diagrams P & Q [slide 40]
+
+alphabet( P )    = { a1, a2, c1, c2 }
+alphabet( Q )    = { b1, b2, c1, c2 }
+alphabet( P||Q ) = { a1, a2, b1, b2, c1, c2 }
+*/
+
+// 
+/* 
+
+P = ( a1 -> c1-> a2 -> c2 -> END ) .
+
+Q = ( b1 -> c1-> b2 -> c2 -> END ) .
+
+|| PQ = ( P || Q ) .
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+
+//  
+/* 
+
+// Individual processes
+
+CLOCK  =  ( tick -> CLOCK ) .
+
+RADIO  =  ( on   -> off -> RADIO ) .
+
+
+// Concurrent System
+
+|| CLOCK_RADIO = ( CLOCK || RADIO ) .
+
+
+// 
+*/
+
+
+////////////////////////////////////////////////////////////
+//
+//  Modelling Concurrency using Interleaving
+//
+////////////////////////////////////////////////////////////
+
+
+//  
+/* 
+
+P2 = ( a1 -> a2 -> STOP ) .
+
+Q2 = ( b1 -> b2 -> STOP ) .
+
+
+|| PQ2 = ( P2 || Q2 ) .
+
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+
+//  
+/* 
+
+P4 = ( a1 -> a2 -> a3 -> a4 -> STOP ) .
+
+Q4 = ( b1 -> b2 -> b3 -> b4 -> STOP ) .
+
+|| PQ4 = ( P4 || Q4 ) .
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+// Not in Lecture 3
+
+//  
+/* 
+
+P2  = ( a1 -> a2 -> STOP ) .
+
+Q2  = ( b1 -> b2 -> STOP ) .
+
+R2  = ( c1 -> c2 -> STOP ) .
+
+
+|| PQR2 = ( P2 || Q2 || R2 ) .
+
+// 
+*/
+
+
+//  
+/* 
+
+P3  = ( a1 -> a2 -> a3 -> STOP ) .
+
+Q3  = ( b1 -> b2 -> b3 -> STOP ) .
+
+R3  = ( c1 -> c2 -> c3 -> STOP ) .
+
+
+|| PQR3 = ( P3 || Q3 || R3 ) .
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+
+//  
+/* 
+
+P4  = ( a1 -> a2 -> a3 -> a4 -> STOP ) .
+
+Q4  = ( b1 -> b2 -> b3 -> b4 -> STOP ) .
+
+R4  = ( c1 -> c2 -> c3 -> c4 -> STOP ) .
+
+
+|| PQR4 = ( P4 || Q4 || R4 ) .
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

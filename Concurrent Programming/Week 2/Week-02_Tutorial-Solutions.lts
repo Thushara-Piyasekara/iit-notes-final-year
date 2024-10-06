@@ -1,0 +1,467 @@
+/* ********************************************
+   6SENG006W Concurrent Programming
+   Sample Solutions for Tutorial 1
+   Exercises:  1.4 - 1.9
+   2/10/2022
+******************************************** */
+
+///////////////////////////////////////////////////////////////
+// Exercises 1.1, 1.2, 1.3  no solutions 
+///////////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////////
+// Exercise 1.4 - Create the following processes & run in LTSA
+///////////////////////////////////////////////////////////////
+
+
+// 1. 
+// 
+DEADLOCK = STOP.
+
+
+// 2. 
+// RHYME = ( one -> two -> buckle -> my -> shoe -> STOP ).
+
+// 3. 
+/*
+
+DRINKS = (   red  -> coffee -> DRINKS 
+           | blue -> tea    -> DRINKS ) .
+
+//
+*/
+
+
+// 4. 
+/*
+ 
+COINTOSS = ( toss -> (    head -> COINTOSS  
+		       | tail -> COINTOSS ) 
+           ) .
+// 
+*/
+
+
+// 5. 
+/* 
+
+CHANGE = ( fivep -> (   onep -> onep -> onep -> onep -> onep -> CHANGE
+                      | 
+                        twop -> twop -> onep -> CHANGE
+                    )  
+         ) .
+// 
+*/
+
+
+////////////////////////////////////////////////////////////////////////
+// Exercise 1.5 - State the: alphabet, transitions, a possible trace, 
+//                           deadlocks,  deadlock the trace
+//                for the Ex 1.4 processes
+////////////////////////////////////////////////////////////////////////
+
+
+// Exercise 1.5 
+
+/*  1. DEADLOCK
+
+Alphabet( DEADLOCK ) = {}
+	
+Transitions:
+	DEADLOCK = Q0,
+	Q0	= STOP.
+
+traces( DEADLOCK ) = { <> }
+
+DEADLOCKS: yes
+
+Trace to DEADLOCK: <>
+
+*/
+
+/*  2. RHYME
+
+Alphabet( RHYME ) = { buckle, my, one, shoe, two }
+	
+Transitions:
+	RHYME = Q0,
+	Q0	= (one -> Q1),
+	Q1	= (two -> Q2),
+	Q2	= (buckle -> Q3),
+	Q3	= (my -> Q4),
+	Q4	= (shoe -> Q5),
+	Q5	= STOP.
+
+traces( RHYME ) = { <>,  < one >, < one, two >, < one, two, buckle >,  
+                    < one, two, buckle, my >, < one, two, buckle, my, shoe > }
+
+DEADLOCKS: yes
+
+Trace to DEADLOCK: < one, two, buckle, my, shoe >
+
+*/
+
+/*
+3. DRINKS - see Lecture notes.
+*/
+
+/*  4. COINTOSS
+
+Alphabet( COINTOSS ) = { head, tail, toss }
+	
+Transitions:
+COINTOSS = Q0,
+	Q0	= (toss -> Q1),
+	Q1	= ( { head, tail } -> Q0).
+
+
+traces( COINTOSS ) = { <>,  < head >, < tail >, 
+                       < head, head >, < head, tail >,  
+                       < tail, head >, < tail, tail >, ... }
+
+DEADLOCKS: no
+
+Trace to DEADLOCK: none
+
+*/
+
+
+
+/*  5. CHANGE
+
+Alphabet( CHANGE ) = { fivep, onep, twop }
+	
+Transitions:
+CHANGE = Q0,
+	Q0	= (fivep -> Q1),
+	Q1	= (twop -> Q2
+		  |onep -> Q4),
+	Q2	= (twop -> Q3),
+	Q3	= (onep -> Q0),
+	Q4	= (onep -> Q5),
+	Q5	= (onep -> Q6),
+	Q6	= (onep -> Q7),
+	Q7	= (onep -> Q0).
+
+
+traces( CHANGE ) = { <>,  < fivep >, 
+                     < fivep, onep >, < fivep, onep, onep >,  ...
+                     < fivep, twop >, < fivep, twop, twop >, ... }
+
+DEADLOCKS: no
+
+Trace to DEADLOCK: none
+
+*/
+
+
+////////////////////////////////////////////////////////////////////////
+// Exercise 1.6 - Give FSP for the LTS graphs
+////////////////////////////////////////////////////////////////////////
+
+// 1. MEETING
+
+//  MEETING = ( hello -> converse -> goodbye -> STOP ) .
+
+
+// 2. JOB
+
+//  JOB = ( arrive -> work -> leave -> JOB ) .
+
+
+// 3. GAME 
+// 
+/*
+
+GAME =  (   one   -> win -> GAME
+          | 
+            two   -> win -> GAME
+          |
+            three -> lose -> GAME
+        ) .
+// 
+*/
+
+/*
+  NOTES:
+  To get a graph that matches the one in the question you need to:
+
+  1. Compile    "C"
+  2. Compose    "||"
+  3. Minimise   "///"
+  4. Re-draw the minimised process  "||DEFAULT".
+
+  This will display { one, two } instead of "two one".
+*/
+
+
+// 4. MOVE
+// 
+/*
+MOVE = ( ahead -> (   left -> STOP 
+                    |
+                      right -> MOVE
+                  )
+       ) .
+// 
+*/
+
+
+// 5. FOURTICK 
+//  FOURTICK = ( tick -> tick -> tick -> tick -> STOP ) .
+
+
+// 6. PERSON
+// 
+/*
+
+PERSON = (    weekend -> sleep -> (   shop -> PERSON 
+                                    | play  -> PERSON )
+           |
+              weekday -> sleep -> work -> PERSON 
+         ) .
+// 
+*/
+
+//  This will display { play, shop } instead of "shop play".
+
+
+
+////////////////////////////////////////////////////////////////////////
+// Exercise 1.7 - Give attributes of Ex 1.7 processes
+////////////////////////////////////////////////////////////////////////
+
+
+/*  1. MEETING
+
+Alphabet( MEETING ) = { hello, converse, goodbye }
+	
+Transitions:
+	MEETING = Q0,
+	Q0	= (hello-> Q1),
+	Q1	= (converse -> Q2),
+	Q2	= (goodbye -> Q3),
+	Q3	= STOP.
+
+traces( MEETING ) = { <>,  < hello >, < hello, converse >, 
+                      < hello, converse, goodbye > 
+                    } 
+
+DEADLOCKS: yes  (state 3)
+
+Trace to DEADLOCK: < hello, converse, goodbye >
+
+*/
+
+
+/* 2. JOB
+
+Alphabet( JOB ) = { arrive, work, leave }
+	
+Transitions:
+	JOB = Q0,
+	Q0	= (arrive -> Q1),
+	Q1	= (work -> Q2),
+	Q2	= (leave -> Q0).
+
+traces( JOB ) = { <>,  < arrive >, < arrive, work >, 
+                  < arrive, work, leave >, 
+                  ... }
+
+DEADLOCKS: no
+
+Trace to DEADLOCK: none
+
+*/
+
+
+/* 3. GAME 
+
+Alphabet( GAME ) = {lose, one, three, two, win}
+	
+GAME = DEFAULT
+Transitions: 
+DEFAULT = Q0,
+	Q0	= (  three      -> Q1
+		   | {one, two} -> Q2 ),
+	Q1	= (lose -> Q0),
+	Q2	= (win -> Q0).
+
+traces( JOB ) = { <>,  
+                  < one >,   < one, win >,    ...,
+                  < two >,   < two, win >,    ...,
+                  < three >, < three, lose >, ...
+                }
+
+DEADLOCKS: no
+
+Trace to DEADLOCK: none
+*/
+
+
+/* 4. MOVE
+
+Alphabet( MOVE ) = {ahead, left, right}
+
+Transitions:
+	MOVE = Q0,
+	Q0	= (ahead -> Q1),
+	Q1	= (  right -> Q0
+		   | left  -> Q2 ),
+	Q2	= STOP.
+
+traces( MOVE ) = { <>,  
+                   < ahead >,  < ahead, right >, ...,
+                   < ahead >,  < ahead, left >
+                 }
+
+DEADLOCKS: yes  (state 2)
+
+Trace to DEADLOCK: < ahead, left >
+*/
+
+
+/* 5. FOURTICK 
+
+Alphabet( FOURTICK ) = { tick }
+
+Transitions:
+	MOVE = Q0,
+	Q0	= (ahead -> Q1),
+	Q1	= (right -> Q0
+		  |left -> Q2),
+	Q2	= STOP.
+
+
+traces( FOURTICK ) 
+    = { <>, < tick >,  < tick, tick >, 
+        < tick, tick, tick >, < tick, tick, tick, tick >
+      }
+
+DEADLOCKS: yes  (state 4)
+
+Trace to DEADLOCK:  < tick, tick, tick, tick >
+*/
+
+
+
+/* 6. PERSON
+
+Alphabet( PERSON ) = {play, shop, sleep, weekday, weekend, work}
+	
+ransitions:
+	PERSON = Q0,
+	Q0	= (weekday -> Q1
+		  |weekend -> Q3),
+	Q1	= (sleep -> Q2),
+	Q2	= (work -> Q0),
+	Q3	= (sleep -> Q4),
+	Q4	= ({play, shop} -> Q0).
+
+
+traces( PERSON )
+  = { <>,  
+      < weekday >, < weekday, sleep >, < weekday, sleep, work >, ...
+
+      < weekend >, < weekend, sleep >, < weekend, sleep, shop >, ...,
+                                       < weekend, sleep, play >, ...,
+    }
+
+DEADLOCKS: no
+
+Trace to DEADLOCK: none
+*/
+
+
+////////////////////////////////////////////////////////////////////////
+// Exercise 1.8 - Give FSP for the LTS graphs
+////////////////////////////////////////////////////////////////////////
+
+/*
+There are no other FSP processes for the MEETING, JOB & FOURTICK processes.
+
+But you can define alternatives for GAME, MOVE & PERSON, as they use the 
+choice operator "|" and given the Choice Law:
+
+( a -> P | b -> Q ) = ( b -> Q | a -> P )
+
+you can alter the order of the choices & these "new" processes are 
+"semantically" equal to the original ones, but are "syntactically" 
+different to them.
+
+*/
+
+// 3. GAME 
+// 
+/*
+
+GAME1 =  (   two   -> win -> GAME1
+          | 
+            one   -> win -> GAME1 
+          |
+            three -> lose -> GAME1
+         ) .
+// 
+*/
+// Equivalent version
+/*
+
+GAME2 =  (   two   -> win -> GAME2
+          | 
+            three -> lose -> GAME2 
+          |
+            one   -> win -> GAME2 
+         ) .
+//
+*/
+
+
+// 4. MOVE
+// 
+/*
+MOVE1 = ( ahead -> (   right -> MOVE1  
+                     |
+                       left -> STOP 
+                   )
+        ) .
+// 
+*/
+
+
+// 6. PERSON
+// 
+/*
+
+PERSON1 = (    weekend -> sleep -> (  play  -> PERSON1 
+                                    | shop  -> PERSON1 )
+           |
+              weekday -> sleep -> work -> PERSON1 
+         ) .
+//
+ */
+
+// 
+/*
+
+PERSON2 = (   weekday -> sleep -> work -> PERSON2 
+           |
+              weekend -> sleep -> (   shop -> PERSON2 
+                                    | play  -> PERSON2 )
+         ) .
+// 
+*/
+
+// PERSON3 =  combine changes of 1 & 2
+
+//  These will display { play, shop } instaed of "shop play".
+
+
+
+///////////////////////////////////////////////////////////////////////
+///////////////////// End of Tutorial 1 Solutions /////////////////////
+///////////////////////////////////////////////////////////////////////
+
+
+
+

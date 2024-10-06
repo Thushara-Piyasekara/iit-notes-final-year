@@ -1,0 +1,59 @@
+
+RHYME = ( one -> two -> buckle -> my -> shoe -> STOP ).
+
+
+/*
+
+COINTOSS = ( toss -> (    head -> COINTOSS  
+				        | tail -> COINTOSS ) ).
+*/
+
+/**
+
+Attributes:
+
+1. alphabet: the set of actions that a process can perform.
+
+alphabet(COINTOSS ) = { head, tail, toss }
+
+
+2. transitions: the transitions between a processes states.
+
+Transitions:
+	COINTOSS = Q0,
+	Q0	= (toss -> Q1),
+	Q1	= ({head, tail} -> Q0).
+
+
+3. a possible trace: a sequence of actions it can perform.
+
+< toss, head, toss, tail
+ toss
+ head
+ toss
+ tail
+ toss
+ head
+ toss
+ head
+ toss, tail >
+
+4. if it can "deadlock": unable to do any further actions, i.e. stuck.
+
+Compiled: COINTOSS
+Composition:
+DEFAULT = COINTOSS
+State Space:
+ 2 = 2 ** 1
+Analysing...
+Depth 2 -- States: 2 Transitions: 3 Memory used: 12882K
+No deadlocks/errors
+Analysed in: 1ms
+
+No Deadlock
+
+5. if it can deadlock the trace that results in deadlock. 
+
+No deadlock trace.
+
+**/

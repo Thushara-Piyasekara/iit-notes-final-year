@@ -6,5 +6,6 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "Resources",
-  "vimMode": true
+  "vimMode": true,
+  "showLineNumber": true
 }

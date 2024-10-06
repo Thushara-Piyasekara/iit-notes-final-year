@@ -1,0 +1,252 @@
+/*
+  File:	    All_L2_processes.lts
+  Contents: Week 02 - Lecture FSP processes
+  Author:   P. Howells
+  Created:  2/10/22
+  Modified: 2/10/22
+*/
+
+//
+DOES_NOTHING = STOP .
+
+
+//------------------------------------------------------
+
+// ONESHOT =  (once -> STOP ) .
+
+//------------------------------------------------------
+
+//  
+/*
+SWITCH = OFF ,
+
+OFF = ( on  -> ON ) ,      // 2 local processes OFF & ON
+ON  = ( off -> OFF ) .
+
+//
+ */
+
+//  
+/*
+SWITCH2 = OFF ,                     // 1 local process OFF
+
+OFF = ( on -> ( off -> OFF ) ) .
+
+// 
+*/
+
+// SWITCH3 = ( on -> off -> SWITCH3 ) . // no local processes
+
+/*
+Eg. in Java 
+
+++x ;        // add 1 to x
+
+x++ ;        // add 1 to x
+
+x = x + 1 ;  // ditto
+
+
+*/
+
+
+//------------------------------------------------------
+
+// TRAFFICLIGHT = ( red -> amber -> green -> amber -> TRAFFICLIGHT ) .
+
+// TRAFFICLIGHT = ( red -> amber -> green -> amber -> red -> TRAFFICLIGHT ) . // extra "red"
+
+//------------------------------------------------------
+
+// 
+/*
+DRINKS = (   red -> coffee -> DRINKS
+           | blue -> tea -> DRINKS ) .
+ */
+
+// 
+/*
+DRINKS = (   red -> makeCoffee -> coffee -> DRINKS
+           | blue -> tea -> DRINKS 
+           | green -> water -> DRINKS ) .
+// 
+*/
+
+//------------------------------------------------------
+
+// 
+/*
+
+FAULTY  = (   red     -> FAULTY
+            | blue    -> FAULTY
+            | green   -> FAULTY
+            |  yellow  -> kitkat -> FAULTY ) .
+
+//
+ */
+
+// 
+/*
+
+FAULTY2 = (   yellow  -> kitkat -> FAULTY2
+            | red     -> FAULTY2 
+            | green   -> FAULTY2
+            | blue    -> FAULTY2  ) .
+
+// 
+*/
+
+// 
+/*
+
+FAULTY3 = (   { red, blue, green } -> FAULTY3 
+            | yellow               -> kitkat -> FAULTY3
+          ).
+
+// 
+*/
+
+//------------------------------------------------------
+// 
+/*
+// a set of actions
+set FaultyButtons = { red, blue, green }
+
+FAULTY4 = (   FaultyButtons -> FAULTY4 
+            | yellow        -> kitkat -> FAULTY4
+          ).
+
+// 
+*/
+//------------------------------------------------------
+
+// 
+/*
+COIN = 	(   toss -> heads -> COIN
+	  | toss -> tails -> COIN
+        ) .
+// 
+*/
+
+//------------------------------------------------------
+
+/*
+   Contents: Generating an FSP from a FSM
+*/
+
+
+// 
+/*
+PROCESS_1  =  S0 ,
+
+S0  = ( red  -> S1 | blue  ->  S2 ) ,
+
+S1  = ( coffee -> S0 ) ,
+
+S2  = ( tea -> S0 ) .
+
+// 
+*/
+
+// 
+/*
+PROCESS_2  =  S0 ,
+
+S0  = (   red  -> ( coffee -> S0 ) 
+        | blue -> ( tea -> S0 ) 
+      ) .
+
+// 
+*/
+
+// 
+/*
+PROCESS_3 = (    red  -> ( coffee -> PROCESS_3 )
+               | blue -> ( tea    -> PROCESS_3 ) 
+            ) .
+
+// 
+*/
+
+// 
+/*
+
+DRINKS = (    red  -> coffee -> DRINKS
+            | blue -> tea    -> DRINKS
+         ) .
+
+// 
+*/
+
+
+//------------------------------------------------------
+/** 
+ *  Process P1 - P6
+ */
+
+// P1 = ( a -> b -> c -> STOP ) .
+
+// P2 = ( a -> b -> c -> P2 ) .
+
+
+/*
+traces( P1 )  = traces( a -> b -> c -> STOP )
+              = { <>, < a >, < a, b >, < a, b, c > }
+
+*/
+
+//------------------------------------------------------
+
+//
+ /*
+
+P3 = (   a -> b -> c -> STOP 
+       | d -> e -> f -> STOP ) .
+
+// 
+*/
+
+// 
+/*
+
+P4 = (   a -> b -> P4 
+       | c -> d -> P4 ) .
+
+// 
+*/
+
+
+/*
+traces( P3 )  = traces( a -> b -> c -> STOP | d -> e -> f -> STOP )
+              = { <>, 
+                  < a >, < a, b >, < a, b, c >,
+                  < d >, < d, e >, < d, e, f >  }
+*/
+
+
+
+//------------------------------------------------------
+// slide: 46
+// 
+/*
+
+P5 = (   a -> (   b -> STOP 
+                | c -> STOP )
+
+       | d -> e -> STOP        ) .
+
+// 
+*/
+
+// 
+/*
+
+P6 = (   a -> b -> STOP
+       | a -> c -> STOP ) .
+
+// 
+*/
+
+///////////////////////////////////////////////////////////////////
+
+
