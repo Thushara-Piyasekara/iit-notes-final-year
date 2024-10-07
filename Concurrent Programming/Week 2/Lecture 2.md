@@ -1,4 +1,4 @@
->FSP guide :- https://www.doc.ic.ac.uk/~jnm/LTSdocumention/FSP-notation.html
+>			FSP guide :- https://www.doc.ic.ac.uk/~jnm/LTSdocumention/FSP-notation.html
 
 
 ### LTS 

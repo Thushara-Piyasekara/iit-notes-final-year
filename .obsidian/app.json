@@ -7,5 +7,6 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "Resources",
   "vimMode": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "showUnsupportedFiles": true
 }

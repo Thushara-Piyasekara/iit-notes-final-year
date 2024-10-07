@@ -87,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 286.5024719238281
+    "width": 278.5024719238281
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -195,7 +195,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b71ac319e7d5373e",
+  "active": "985503a659b72ee7",
   "lastOpenFiles": [
     "Concurrent Programming.zip",
     "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
