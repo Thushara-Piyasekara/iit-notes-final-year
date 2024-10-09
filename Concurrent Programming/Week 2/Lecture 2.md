@@ -1,4 +1,4 @@
->			FSP guide :- https://www.doc.ic.ac.uk/~jnm/LTSdocumention/FSP-notation.html
+>FSP guide :- https://www.doc.ic.ac.uk/~jnm/LTSdocumention/FSP-notation.html
 
 
 ### LTS 
@@ -65,3 +65,4 @@ TRAFFIC_LIGHT = (red -> orangeRed -> green -> orange -> TRAFFIC_LIGHT)
 ```
 traces (TRAFFIC_LIGHT) ={<>, <red>, <red, orangeRed>, <red, orangeRed, green>, <red, orangeRed, green, orange>, <red, orangeRed, green, orange, red>, ...} 
 ```
+

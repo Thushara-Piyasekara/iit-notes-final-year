@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "a819374e4d85dea5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "049ee3fab0d091e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concurrent Programming/Week 2/Lecture 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -87,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5024719238281
+    "width": 414.5024719238281
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -197,6 +179,9 @@
   },
   "active": "985503a659b72ee7",
   "lastOpenFiles": [
+    "Concurrent Programming/Week 2/Ex-1-5_COINTOSS.lts",
+    "vim_cheatsheet.png",
+    "Concurrent Programming/Week 2/Lecture 2.md",
     "Concurrent Programming.zip",
     "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
     "Concurrent Programming/Week 2/screencapture-learning-westminster-ac-uk-ultra-courses-98377-1-outline-edit-document-5011039-1-2024-10-06-00_33_07.pdf",
@@ -207,8 +192,6 @@
     "Concurrent Programming/Week 3/Unconfirmed 34707.crdownload",
     "Concurrent Programming/Week 3",
     "Concurrent Programming/Week 2/Week-03_FSP_Modelling_II.pdf",
-    "Concurrent Programming/Week 2/Week-03_FSP_Modelling_II.pdf.crdownload",
-    "Concurrent Programming/Week 2/Lecture 2.md",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
     "TODO.md",
     "Resources/Pasted image 20241004112810.png",
@@ -226,7 +209,6 @@
     "Untitled 1.md",
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
     "Formal Methods/Week 2/Tutorial/Untitled.md",
-    "Resources/Pasted image 20241002111512.png",
     "Mobile Native/Untitled.md",
     "L6-sem1-tentative-timetable 1.md",
     "Welcome.md",
