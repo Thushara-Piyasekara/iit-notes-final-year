@@ -6,7 +6,7 @@
       {
         "id": "4e773ff54098c486",
         "type": "tabs",
-        "dimension": 56.04925053533191,
+        "dimension": 56.0492505353319,
         "children": [
           {
             "id": "2f2f8543c143ac63",
@@ -35,7 +35,7 @@
       {
         "id": "6550ff89eacc708d",
         "type": "tabs",
-        "dimension": 43.95074946466809,
+        "dimension": 43.9507494646681,
         "children": [
           {
             "id": "56ea22de643ae655",
@@ -136,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formal Methods/Week 3/Week 3 Tutorial Notes.md",
+                "file": "Formal Methods/Week 1/Lecture 1.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formal Methods/Week 3/Week 3 Tutorial Notes.md",
+                "file": "Formal Methods/Week 1/Lecture 1.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formal Methods/Week 3/Week 3 Tutorial Notes.md"
+                "file": "Formal Methods/Week 1/Lecture 1.pdf"
               }
             }
           },
@@ -224,16 +224,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f2f8543c143ac63",
+  "active": "c63e4f18142e7273",
   "lastOpenFiles": [
+    "Formal Methods/Week 3/Week 3 Tutorial Notes.md",
     "Formal Methods/Week 3/PaperRound.mch",
     "Formal Methods/Week 3/week 3 tutorial.pdf",
     "Formal Methods/Week 3/Tutorial Week-03 - Tagged.pdf",
-    "Formal Methods/Week 3/Week 3 Tutorial Notes.md",
     "Formal Methods/Week 2/Tutorial/Week 2 - Tutorial.pdf",
     "Formal Methods/Week 2/Tutorial/PaperRound_B-Machine (1).pdf",
     "Formal Methods/Week 1/Lecture 1.pdf",
@@ -244,7 +244,6 @@
     "Formal Methods/Week 3/Week 3 - Tutorial.epub",
     "Formal Methods/Week 3/Unconfirmed 449648.crdownload",
     "Concurrent Programming/Week 2/Lecture 2.md",
-    "Formal Methods/Week 3/Tutorial Week-03 - Tagged.pdf.crdownload",
     "vim_cheatsheet.png",
     "TODO.md",
     "Resources/Pasted image 20241004112810.png",
