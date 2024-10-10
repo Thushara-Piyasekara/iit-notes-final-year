@@ -137,5 +137,14 @@
       ],
       "key": "S"
     }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "ArrowRight"
+    }
   ]
 }

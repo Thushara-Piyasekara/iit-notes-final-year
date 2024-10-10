@@ -1,4 +1,4 @@
-- Sets are seperated by a semi colon (;)
+- Sets are separated by a semi colon (;)
 ```
 SETS
 HasPaperStrings = {House_has_papers, House_doesnt_have_papers};
@@ -29,5 +29,3 @@ INITIALISATION
 ```
 INITIALISATION
 	houseNumbers, magazinesDeliveredHouses := {}, {}
-```
-

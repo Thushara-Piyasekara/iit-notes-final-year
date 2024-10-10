@@ -4,73 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "4e773ff54098c486",
+        "id": "7a0c19c079fb097f",
         "type": "tabs",
-        "dimension": 56.04925053533191,
+        "dimension": 73.20852162685604,
         "children": [
           {
-            "id": "2f2f8543c143ac63",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formal Methods/Week 3/Week 3 Tutorial Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b7da38d88aefb0b7",
+            "id": "61fd673711cf6431",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 3/Tutorial Week-03 - Tagged.pdf"
+                "file": "Formal Methods/Week 3/Lecture Note.pdf"
               }
             }
           }
         ]
       },
       {
-        "id": "6550ff89eacc708d",
+        "id": "bbd7aeea3c79faac",
         "type": "tabs",
-        "dimension": 43.95074946466809,
+        "dimension": 26.791478373143963,
         "children": [
           {
-            "id": "56ea22de643ae655",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Methods/Week 2/Lecture 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "c63e4f18142e7273",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Methods/Week 1/Lecture 1.pdf"
-              }
-            }
-          },
-          {
-            "id": "65d8495f7dd0dce6",
+            "id": "f2b2c4740967c96c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Methods/Week 2/Week 2 Lec notes.md",
+                "file": "Formal Methods/Week 3/Lecture 3 notes.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5024719238281
+    "width": 414.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -136,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formal Methods/Week 3/Week 3 Tutorial Notes.md",
+                "file": "Formal Methods/Week 3/Lecture Note.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formal Methods/Week 3/Week 3 Tutorial Notes.md",
+                "file": "Formal Methods/Week 3/Lecture Note.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formal Methods/Week 3/Week 3 Tutorial Notes.md"
+                "file": "Formal Methods/Week 3/Lecture Note.pdf"
               }
             }
           },
@@ -228,23 +196,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2f2f8543c143ac63",
+  "active": "61fd673711cf6431",
   "lastOpenFiles": [
-    "Formal Methods/Week 3/PaperRound.mch",
-    "Formal Methods/Week 3/week 3 tutorial.pdf",
-    "Formal Methods/Week 3/Tutorial Week-03 - Tagged.pdf",
-    "Formal Methods/Week 3/Week 3 Tutorial Notes.md",
-    "Formal Methods/Week 2/Tutorial/Week 2 - Tutorial.pdf",
-    "Formal Methods/Week 2/Tutorial/PaperRound_B-Machine (1).pdf",
-    "Formal Methods/Week 1/Lecture 1.pdf",
-    "Formal Methods/Week 2/Lecture 2.pdf",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
+    "Formal Methods/Week 3/Lecture Note.pdf",
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
-    "Formal Methods/Week 3/week 3 tutorial.pdf.crdownload",
-    "Formal Methods/Week 3/Week 3 - Tutorial.epub",
-    "Formal Methods/Week 3/Unconfirmed 449648.crdownload",
+    "Formal Methods/Week 1/Lecture 1.pdf",
+    "Formal Methods/Week 3/Untitled.md",
+    "Formal Methods/Week 3/Lecture 3 notes.md",
+    "Resources/Pasted image 20241009152220.png",
+    "Resources/Pasted image 20241009150937.png",
+    "Resources/Pasted image 20241009150857.png",
+    "Resources/Pasted image 20241009143405.png",
+    "Resources/Pasted image 20241009141937.png",
+    "Formal Methods/Week 3/Lecture Note.pdf.crdownload",
+    "Formal Methods/Week 2/Lecture 2.pdf",
+    "Formal Methods/Week 3/Tutorial/PaperRound.mch",
+    "Concurrent Programming/Week 1/other/CP Lecture 01 2024 with edits.docx.docx",
+    "Formal Methods/Week 3/Tutorial",
+    "Concurrent Programming/Week 1/Week_01_Introduction_ACC.pdf",
+    "Formal Methods/Week 3/Tutorial/Tutorial Week-03 - Tagged.pdf",
+    "Concurrent Programming/Week 1/other/StudentBankAccount_Roles(1).pdf",
+    "Formal Methods/Week 3/Tutorial/Week 3 Tutorial Notes.md",
     "Concurrent Programming/Week 2/Lecture 2.md",
-    "Formal Methods/Week 3/Tutorial Week-03 - Tagged.pdf.crdownload",
     "vim_cheatsheet.png",
     "TODO.md",
     "Resources/Pasted image 20241004112810.png",
@@ -252,11 +226,6 @@
     "Resources/Pasted image 20241004111155.png",
     "Excalidraw/Drawing 2024-10-04 11.04.18.excalidraw.md",
     "Resources/Pasted image 20241004110317.png",
-    "Resources/Pasted image 20241004104012.png",
-    "Resources/Pasted image 20241004085540.png",
-    "Resources/Pasted image 20241002151356.png",
-    "Resources/Pasted image 20241002144757.png",
-    "Resources/Pasted image 20241002144657.png",
     "Time Tables.md",
     "Formal Methods/Week 2/Week 2 notes.md",
     "Untitled 1.md",
@@ -274,8 +243,6 @@
     "Concepts/Abstract Syntax Tree.md",
     "Videos to watch.md",
     "Concepts/JWarmup.md",
-    "Concepts/LLVM Optimization Levels.md",
-    "Concepts/Moore's Law.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
