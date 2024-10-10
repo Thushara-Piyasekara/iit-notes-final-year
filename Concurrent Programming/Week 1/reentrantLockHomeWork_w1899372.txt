@@ -1,0 +1,106 @@
+public class BankSimulation {
+
+    public static void main(String[] args) {
+        BankAccount account = new BankAccount(1000000, "Acc001");
+        // when the husband calls the withdraw method he will acquire
+        // lock on withdraw method
+        // therefore no other thread can call any of the other
+        // synchronized method on the above account object
+        // any attempt by any other thread to call the synchronized method will
+        // fail and that thread will go into BLOCKED state
+
+        Thread husband = new Thread(()-> { account.withdraw(25000);
+        }, "House Based Husband");
+
+        Thread wife = new Thread(() -> {
+            account.deposit(25000);
+        }, "Career Minded Wife");
+
+        Thread bankManager = new Thread(()->{
+            synchronized(account) { // at this point of execution lock will be acquired
+                double interest = account.getBalance() * 9/100/12/30;
+                account.deposit(interest);
+            } // lock will be released at this point
+        }, "Bank Manager");
+
+        husband.start();
+        wife.start();
+        bankManager.start();
+    }
+}
+
+
+
+import java.util.concurrent.locks.ReentrantLock;
+
+// Monitor class in concurrency
+public class BankAccount {
+	
+	// for money double is NOT suitable
+	// what is the suitable data type for Money?
+	private double balance;
+	private String accountNo;
+	// balance within the bank account object is the 
+	// shared resource 
+	// code that accessing the balance is known as 
+	// critical section 
+	// since the balance can change very fast it is 
+	// important to either make it volatile or call to
+	// balance variable must happen inside synchronized 
+	// block
+
+	private final ReentrantLock reentrantLock;
+	public BankAccount(double balance, String accountNo) {
+		super();
+		this.balance = balance;
+		this.accountNo = accountNo;
+		this.reentrantLock = new ReentrantLock();
+	}
+	
+	// critical section since it access the balance
+	// reads the balance 
+	public double getBalance() {
+		reentrantLock.lock();
+        try {
+			return balance;
+        } finally {
+			reentrantLock.unlock();
+        }
+	}
+
+	public String getAccountNo() {
+		return accountNo;
+	}
+	
+	// part of critical section
+	public void deposit(double amount) {
+		reentrantLock.lock();
+        try {
+			if(amount >= 0) {
+				balance += amount;
+			} else {
+				throw new IllegalArgumentException("Amount cannot be below ZERO");
+			}
+			System.out.println(Thread.currentThread().getName()+" balance after deposit "+balance);
+        } finally {
+            reentrantLock.unlock();
+        }
+	}
+	
+	// part of critical section
+	public void withdraw(double amount) {
+		reentrantLock.lock();
+		try {
+			if(amount > 0 && balance - amount >= 0) {
+				balance -= amount;
+			} else {
+				throw new IllegalArgumentException("Invalid withdraw amount or insufficient funds");
+			}
+			System.out.println(Thread.currentThread().getName()+" balance after withdrawal "+balance);
+		}
+		finally {
+			reentrantLock.unlock();
+		}
+	}
+}
+

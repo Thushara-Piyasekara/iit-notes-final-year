@@ -1,13 +1,4 @@
 {
-  "file-explorer:open": [
-    {
-      "modifiers": [
-        "Alt",
-        "Shift"
-      ],
-      "key": "R"
-    }
-  ],
   "obsidian-git:list-changed-files": [
     {
       "modifiers": [
@@ -145,6 +136,23 @@
         "Shift"
       ],
       "key": "ArrowRight"
+    }
+  ],
+  "open-with-default-app:show": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "R"
+    }
+  ],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "Delete"
     }
   ]
 }
