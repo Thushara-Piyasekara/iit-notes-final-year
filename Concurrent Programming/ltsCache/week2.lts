@@ -3,7 +3,7 @@
 //CAREER_MINDED_WIFE = (withdrawMoney -> ATM | depositMoney -> ATM).
 
 //// Traffic Light
-TRAFFIC_LIGHT = (red -> orangeRed -> green -> orange -> TRAFFIC_LIGHT).
+//TRAFFIC_LIGHT = (red -> orangeRed -> green -> orange -> TRAFFIC_LIGHT).
 
 ///// Non-determinism
 
@@ -22,6 +22,36 @@ TRAFFIC_LIGHT = (red -> orangeRed -> green -> orange -> TRAFFIC_LIGHT).
 /////// Alphabets
 
 //alphabet(DRINKS) = { red, blue, coffee, tea }
+
+
+/////////////////// Week 3 ////////////////////
+
+//TRAFFIC_LIGHT = (red -> orangeRed -> green -> orange -> TRAFFIC_LIGHT).
+//||JUNCTION = ({a,b,c,d} : TRAFFIC_LIGHT) / {a.red/b.red, c.red/d.red}.
+
+//||JUNCTION_2 = ({a,b,c,d} : TRAFFIC_LIGHT) / {lane1.green/{a.green,b.green}, lane1.red/{a.red,b.red}}.
+
+
+////////////// With Traffic Controller
+
+TRAFFIC_LANE = (orangeRed -> green -> orange -> red -> TRAFFIC_LANE).
+||JUNCTION_3 = ({lane1, lane2} :  TRAFFIC_LANE || TRAFFIC_CONTROLLER).
+
+TRAFFIC_CONTROLLER = (lane1.orangeRed -> lane1.green -> lane1.orange -> lane1.red -> lane2.orangeRed -> lane2.green -> lane2.orange -> lane2.red -> TRAFFIC_CONTROLLER).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

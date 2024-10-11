@@ -1,6 +1,5 @@
 >FSP guide :- https://www.doc.ic.ac.uk/~jnm/LTSdocumention/FSP-notation.html
 
-
 ### LTS 
 ![[Pasted image 20241004085540.png]]
 
