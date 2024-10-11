@@ -8,5 +8,5 @@
   "attachmentFolderPath": "Resources",
   "vimMode": true,
   "showLineNumber": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": false
 }

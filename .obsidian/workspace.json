@@ -4,22 +4,61 @@
     "type": "split",
     "children": [
       {
-        "id": "d5e69e80f03547fd",
+        "id": "4d89c414a0676bca",
         "type": "tabs",
         "children": [
           {
-            "id": "46cc6f337621c022",
+            "id": "b8358c189924a061",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6a960ec28fe62563",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "967179d82031ab7d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf"
+              }
+            }
+          },
+          {
+            "id": "8d30dc2ed49ab8f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concurrent Programming/Week 1/reentrantLockHomeWork_w1899372.txt",
+                "file": "Concurrent Programming/Week 2/Lecture 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30fa96f50dcad1db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Concurrent Programming/Week 3/Lecture 3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5024719238281
+    "width": 414.5024719238281,
+    "collapsed": true
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -85,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concurrent Programming/Week 1/reentrantLockHomeWork_w1899372.txt",
+                "file": "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Concurrent Programming/Week 1/reentrantLockHomeWork_w1899372.txt",
+                "file": "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Concurrent Programming/Week 1/reentrantLockHomeWork_w1899372.txt"
+                "file": "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf"
               }
             }
           },
@@ -177,23 +217,24 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "46cc6f337621c022",
+  "active": "b8358c189924a061",
   "lastOpenFiles": [
-    "Concurrent Programming/Week 1/HomeWork - Week 1.md",
+    "Concurrent Programming/Week 3/Lecture 3.md",
+    "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
+    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
+    "Concurrent Programming/Week 2/Lecture 2.md",
+    "Concurrent Programming/SampleICTs/ICT Paper 2023_24 - Beeline.html",
+    "Concurrent Programming/SampleICTs/Unconfirmed 654142.crdownload",
+    "Concurrent Programming/SampleICTs",
     "Concurrent Programming/Week 1/reentrantLockHomeWork_w1899372.txt",
+    "Concurrent Programming/Week 1/HomeWork - Week 1.md",
     "Concurrent Programming/Week 1/homework_local/src/BankSimulation.java~",
     "Concurrent Programming/Week 1/homework_local/out/production/homework_local/BankSimulation.class",
     "Concurrent Programming/Week 1/homework_local/out/production/homework_local/BankAccount.class",
     "Concurrent Programming/Week 1/homework_local/src/BankAccount.java~",
-    "Concurrent Programming/Week 1/homework_local/out/production/homework_local",
-    "Concurrent Programming/Week 1/homework_local/out/production",
-    "Concurrent Programming/Week 1/homework_local/out",
-    "Concurrent Programming/Week 1/homework_local/src/BankAccount.java",
-    "Concurrent Programming/Week 1/homework_local/src/BankSimulation.java",
     "Resources/Pasted image 20241010231335.png",
     "Concurrent Programming/Week 1/HomeWork/Untitled.md",
     "Concurrent Programming/Week 1/HomeWork/Untitled 1.md",
-    "Concurrent Programming/Week 2/Lecture 2.md",
     "Formal Methods/Week 3/Lecture 3 notes.md",
     "conflict-files-obsidian-git.md",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
@@ -223,7 +264,6 @@
     "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/Machine Learning in Compilers - Past, Present and Future.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/GraalSP- Polyglot, efficient, and robust machine learning-based static profiler.md",
     "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/Compiler gym.md",
-    "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/GraphCodeBERT- Pre Training Code Representations With Data Flow.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
