@@ -4,26 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "4d89c414a0676bca",
-        "type": "tabs",
-        "dimension": 57.17344753747323,
-        "children": [
-          {
-            "id": "b8358c189924a061",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "6a960ec28fe62563",
         "type": "tabs",
-        "dimension": 42.82655246252677,
         "children": [
           {
             "id": "967179d82031ab7d",
@@ -32,18 +14,6 @@
               "type": "pdf",
               "state": {
                 "file": "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf"
-              }
-            }
-          },
-          {
-            "id": "455fff67f56f1a21",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Concurrent Programming/Week 4/Week 4.md",
-                "mode": "source",
-                "source": false
               }
             }
           },
@@ -122,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 414.5024719238281,
-    "collapsed": true
+    "width": 414.5024719238281
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -139,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concurrent Programming/Week 4/Week 4.md",
+                "file": "Concurrent Programming/Week 2/Lecture 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Concurrent Programming/Week 4/Week 4.md",
+                "file": "Concurrent Programming/Week 2/Lecture 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Concurrent Programming/Week 4/Week 4.md"
+                "file": "Concurrent Programming/Week 2/Lecture 2.md"
               }
             }
           },
@@ -231,8 +200,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "455fff67f56f1a21",
+  "active": "8d30dc2ed49ab8f9",
   "lastOpenFiles": [
+    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
     "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
     "Concurrent Programming/Week 4/Week 4.md",
     "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
@@ -245,7 +215,6 @@
     "Concurrent Programming/Week 4",
     "Resources/Pasted image 20241011101123.png",
     "Resources/Pasted image 20241011100902.png",
-    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
     "Concurrent Programming/Week 2/Lecture 2.md",
     "Concurrent Programming/SampleICTs/ICT Paper 2023_24 - Beeline.html",
     "Concurrent Programming/SampleICTs/Unconfirmed 654142.crdownload",
