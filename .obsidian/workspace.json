@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "31902867fa10fa98",
+        "id": "8ff9d82b80ea0ee0",
         "type": "tabs",
-        "dimension": 79.5609756097561,
+        "dimension": 67.1219512195122,
         "children": [
           {
-            "id": "78457f64ee547986",
+            "id": "5a8cbac8414d5692",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -21,9 +21,9 @@
         ]
       },
       {
-        "id": "8ff9d82b80ea0ee0",
+        "id": "a265ff569fa7faa8",
         "type": "tabs",
-        "dimension": 20.4390243902439,
+        "dimension": 32.87804878048781,
         "children": [
           {
             "id": "914ea43592919385",
@@ -31,7 +31,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Methods/Week 4/Lecture Notes.md",
+                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formal Methods/Week 4/Week_4_lecture_slides.pdf",
+                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formal Methods/Week 4/Week_4_lecture_slides.pdf",
+                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formal Methods/Week 4/Week_4_lecture_slides.pdf"
+                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md"
               }
             }
           },
@@ -195,13 +195,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b71ac319e7d5373e",
+  "active": "914ea43592919385",
   "lastOpenFiles": [
+    "Resources/Pasted image 20241016151746.png",
+    "Resources/Pasted image 20241016151427.png",
+    "Formal Methods/Week 4/Week_4_lecture_slides.pdf",
+    "Formal Methods/Week 4/Week 4 Lecture Notes.md",
+    "Resources/Pasted image 20241002111512.png",
     "Formal Methods/Week 4/PaperRound.mch",
     "Concurrent Programming/Week 4/PaperRound.mch",
     "Concurrent Programming/SampleICTs/Screenshot from 2024-10-16 13-51-01.png",
-    "Formal Methods/Week 4/Lecture Notes.md",
-    "Formal Methods/Week 4/Week_4_lecture_slides.pdf",
     "Formal Methods/Week 4/Structure_Diagram.excalidraw.md",
     "Formal Methods/Week 4/Sets Tutorial.md",
     "Formal Methods/Week 3/Lecture Slides.pdf",
@@ -212,7 +215,6 @@
     "Formal Methods/Week 3/Tutorial/week 3 tutorial.pdf",
     "Formal Methods/Week 3/Tutorial/Tutorial Week-03 - Tagged.pdf",
     "Formal Methods/Week 3/Tutorial/Sets.mch",
-    "Formal Methods/Week 3/Tutorial/Unconfirmed 674297.crdownload",
     "Excalidraw/Drawing 2024-10-04 11.04.18.excalidraw.md",
     "Concurrent Programming/Week 3/Week 3 Tutorial.md",
     "Formal Methods/Week 3/Lecture 3 notes.md",
@@ -235,8 +237,6 @@
     "conflict-files-obsidian-git.md",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
-    "Resources/Pasted image 20241009152220.png",
-    "Resources/Pasted image 20241009150937.png",
     "Formal Methods/Week 3/Tutorial/Week 3 Tutorial Notes.md",
     "TODO.md",
     "Formal Methods/Week 2/Week 2 notes.md",
