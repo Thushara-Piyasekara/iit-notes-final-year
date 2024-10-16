@@ -10,20 +10,25 @@ SETS
     StopDeliveryStrings = {Removed_successfully, Not_in_the_set};
     DeliveryStates = {Paper_only, Magazine_only, Both_magazine_and_paper, No_deliveries};  // Magazine_only will be removed as per activity 3.5
     stopAllDeliveriesStrings = {The_house_will_no_longer_have_either_delivered, The_house_does_not_have_both_delivered}
+CONSTANTS
+    MaxNumberOfHouses
+PROPERTIES
+    MaxNumberOfHouses = 10
     
     VARIABLES
         houseNumbers,
         magazinesDeliveredHouses
     INVARIANT
         houseNumbers <: NATURAL1 &
-        magazinesDeliveredHouses <: NATURAL1
+        magazinesDeliveredHouses <: NATURAL1 &
+        card(houseNumbers) < MaxNumberOfHouses
     INITIALISATION
         houseNumbers := {} ||
         magazinesDeliveredHouses := {}
     OPERATIONS
         addNewHouse(newHouse) =
             PRE
-                newHouse : NATURAL1 & newHouse /: houseNumbers
+                newHouse : NATURAL1 & newHouse /: houseNumbers & card(houseNumbers) < MaxNumberOfHouses
             THEN
                 houseNumbers := houseNumbers \/ {newHouse}
             END;
@@ -44,7 +49,8 @@ SETS
             PRE
                 houseNumber : houseNumbers
             THEN
-                houseNumbers := houseNumbers - {houseNumber}
+                houseNumbers := houseNumbers - {houseNumber} ||
+                magazinesDeliveredHouses := magazinesDeliveredHouses - {houseNumber}
             END;
             
             
@@ -93,7 +99,7 @@ SETS
 //// 3.4
         deliverMagazine(houseNumber) =
             PRE
-                houseNumber : NATURAL1 & houseNumber : houseNumbers & houseNumber /: magazinesDeliveredHouses
+                houseNumber : NATURAL1 & houseNumber : houseNumbers & houseNumber /: magazinesDeliveredHouses 
             THEN
                 magazinesDeliveredHouses := magazinesDeliveredHouses \/ {houseNumber}
             END;
@@ -137,10 +143,11 @@ SETS
                 ELSE
                     ans := The_house_does_not_have_both_delivered
                 END
-            END
+            END;
             
 ///// 3.5
-        
-        
-                    
+
+///// 3.7
+        ans <-- howManyMore =
+            ans:= 10 - card(houseNumbers)            
 END

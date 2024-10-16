@@ -4,55 +4,36 @@
     "type": "split",
     "children": [
       {
-        "id": "def9694a720d4ae1",
+        "id": "31902867fa10fa98",
         "type": "tabs",
-        "dimension": 63.22269807280514,
+        "dimension": 79.5609756097561,
         "children": [
           {
-            "id": "ad90531353bf7f73",
+            "id": "78457f64ee547986",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 3/Lecture Note.pdf"
-              }
-            }
-          },
-          {
-            "id": "34921ba52c9c8400",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Methods/Week 4/Week_4_Tutorial.pdf"
-              }
-            }
-          },
-          {
-            "id": "b95f2978bc39dbec",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Methods/Week 3/Week-03_Set_Expressions.pdf"
+                "file": "Formal Methods/Week 4/Week_4_lecture_slides.pdf"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
-        "id": "31902867fa10fa98",
+        "id": "8ff9d82b80ea0ee0",
         "type": "tabs",
-        "dimension": 36.77730192719486,
+        "dimension": 20.4390243902439,
         "children": [
           {
-            "id": "da6329b6d6683c86",
+            "id": "914ea43592919385",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Formal Methods/Week 3/Lecture Note.pdf"
+                "file": "Formal Methods/Week 4/Lecture Notes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -106,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 310.5,
-    "collapsed": true
+    "width": 310.5
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -123,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formal Methods/Week 3/Week-03_Set_Expressions.pdf",
+                "file": "Formal Methods/Week 4/Week_4_lecture_slides.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formal Methods/Week 3/Week-03_Set_Expressions.pdf",
+                "file": "Formal Methods/Week 4/Week_4_lecture_slides.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formal Methods/Week 3/Week-03_Set_Expressions.pdf"
+                "file": "Formal Methods/Week 4/Week_4_lecture_slides.pdf"
               }
             }
           },
@@ -215,22 +195,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b95f2978bc39dbec",
+  "active": "b71ac319e7d5373e",
   "lastOpenFiles": [
-    "Formal Methods/Week 4/Structure_Diagram.excalidraw.md",
-    "Formal Methods/Week 3/Week-03_Set_Expressions.pdf",
-    "Formal Methods/Week 3/Week-03_Set_Expressions.pdf.crdownload",
-    "Formal Methods/Week 4/Week_4_Tutorial.pdf",
-    "Formal Methods/Week 3/Lecture Note.pdf",
-    "Excalidraw/Drawing 2024-10-04 11.04.18.excalidraw.md",
-    "Formal Methods/Week 3/Tutorial/PaperRound.mch",
+    "Formal Methods/Week 4/PaperRound.mch",
+    "Concurrent Programming/Week 4/PaperRound.mch",
+    "Concurrent Programming/SampleICTs/Screenshot from 2024-10-16 13-51-01.png",
+    "Formal Methods/Week 4/Lecture Notes.md",
     "Formal Methods/Week 4/Week_4_lecture_slides.pdf",
-    "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
+    "Formal Methods/Week 4/Structure_Diagram.excalidraw.md",
+    "Formal Methods/Week 4/Sets Tutorial.md",
+    "Formal Methods/Week 3/Lecture Slides.pdf",
+    "Formal Methods/Week 3/Tutorial/Week-03_Set_Expressions.pdf",
+    "Formal Methods/Week 4/Week_4_Tutorial.pdf",
+    "Formal Methods/Week 2/Lecture 2.pdf",
+    "Formal Methods/Week 2/Untitled.md",
+    "Formal Methods/Week 3/Tutorial/week 3 tutorial.pdf",
+    "Formal Methods/Week 3/Tutorial/Tutorial Week-03 - Tagged.pdf",
+    "Formal Methods/Week 3/Tutorial/Sets.mch",
+    "Formal Methods/Week 3/Tutorial/Unconfirmed 674297.crdownload",
+    "Excalidraw/Drawing 2024-10-04 11.04.18.excalidraw.md",
     "Concurrent Programming/Week 3/Week 3 Tutorial.md",
     "Formal Methods/Week 3/Lecture 3 notes.md",
-    "Formal Methods/Week 4/Week_4_lecture_slides.pdf.crdownload",
-    "Formal Methods/Week 4/Week_4_Lec_slides.pdf",
-    "Concurrent Programming/Week 1/homework_local/out/production/homework_local/BankSimulation.class",
     "Time Tables.md",
     "Resources/Pasted image 20241016011936.png",
     "Concurrent Programming/Week 3/Lecture 3.md",
@@ -252,16 +237,12 @@
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
     "Resources/Pasted image 20241009152220.png",
     "Resources/Pasted image 20241009150937.png",
-    "Resources/Pasted image 20241009150857.png",
     "Formal Methods/Week 3/Tutorial/Week 3 Tutorial Notes.md",
     "TODO.md",
     "Formal Methods/Week 2/Week 2 notes.md",
     "Untitled 1.md",
     "Formal Methods/Week 2/Tutorial/Untitled.md",
     "Mobile Native/Untitled.md",
-    "L6-sem1-tentative-timetable 1.md",
-    "Welcome.md",
-    "FYP Ideas/Compiler Optimization using Machine Learning/Research Papers/Meta Large Language Model Compiler- Foundation Models of Compiler Optimization.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
