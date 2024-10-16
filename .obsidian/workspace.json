@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "a20a398286c9fb75",
+        "id": "def9694a720d4ae1",
         "type": "tabs",
+        "dimension": 60.92077087794433,
         "children": [
           {
-            "id": "4e3d824c33c5fe08",
+            "id": "ad90531353bf7f73",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Formal Methods/Week 3/Lecture Note.pdf"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "31902867fa10fa98",
+        "type": "tabs",
+        "dimension": 39.07922912205567,
+        "children": [
+          {
+            "id": "95decf13f58a3e1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Time Tables.md",
+                "file": "Formal Methods/Week 3/Lecture 3 notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Time Tables.md",
+                "file": "Formal Methods/Week 3/Lecture Note.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Time Tables.md",
+                "file": "Formal Methods/Week 3/Lecture Note.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Time Tables.md"
+                "file": "Formal Methods/Week 3/Lecture Note.pdf"
               }
             }
           },
@@ -177,27 +195,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4e3d824c33c5fe08",
+  "active": "ad90531353bf7f73",
   "lastOpenFiles": [
+    "Formal Methods/Week 3/Tutorial/PaperRound.mch",
+    "Formal Methods/Week 4/Week_4_Lec_slides.pdf",
+    "Concurrent Programming/Week 3/PaperRound.mch",
+    "Formal Methods/Week 3/Tutorial/week 3 tutorial.pdf",
+    "Formal Methods/Week 4/Week_4_Tutorial.pdf",
+    "Formal Methods/Week 4/Week_4_Tutorial.pdf.crdownload",
+    "Formal Methods/Week 4/Week_4_Lec_slides.pdf.crdownload",
+    "Formal Methods/Week 4",
+    "Formal Methods/Week 3/Lecture Note.pdf",
+    "Formal Methods/Week 3/Lecture 3 notes.md",
+    "Time Tables.md",
     "Resources/Pasted image 20241016011936.png",
     "L6 SE -Group 1.pdf",
     "L6 SE -Group 1.pdf.part",
-    "Time Tables.md",
-    "L6 SE -Group 1.pdf.crdownload",
     "Concurrent Programming/Week 3/Lecture 3.md",
-    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
-    "with tuts.zip",
     "Excalidraw/Drawing 2024-10-04 11.04.18.excalidraw.md",
     "Concurrent Programming/Week 4/Week 4 tutorial.md",
     "Formal Methods/Week 3/Untitled.md",
     "Concurrent Programming/Week 4/Week 4.md",
     "Concurrent Programming/Week 3/Week 3 Tutorial.md",
-    "Concurrent Programming/Week 4/Week 04 Tutorial.epub",
-    "Concurrent Programming/Week 4/Unconfirmed 864624.crdownload",
-    "Concurrent Programming/Week 2/week 2 tutorial.pdf",
     "Concurrent Programming/Week 2/Lecture 2.md",
-    "oct 12.zip",
-    "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
     "Resources/Pasted image 20241011103016.png",
     "Resources/Pasted image 20241011103005.png",
     "Resources/Pasted image 20241011102056.png",
@@ -207,14 +227,12 @@
     "Resources/Pasted image 20241010231335.png",
     "Concurrent Programming/Week 1/HomeWork/Untitled.md",
     "Concurrent Programming/Week 1/HomeWork/Untitled 1.md",
-    "Formal Methods/Week 3/Lecture 3 notes.md",
     "conflict-files-obsidian-git.md",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
     "Resources/Pasted image 20241009152220.png",
     "Resources/Pasted image 20241009150937.png",
     "Resources/Pasted image 20241009150857.png",
-    "Resources/Pasted image 20241009143405.png",
     "Formal Methods/Week 3/Tutorial/Week 3 Tutorial Notes.md",
     "TODO.md",
     "Formal Methods/Week 2/Week 2 notes.md",
