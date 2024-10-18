@@ -1,0 +1,10 @@
+set VMActions = { red, coffee, blue, tea } 
+set Customers = { cc, tc }
+
+DRINKS = (red -> coffee -> DRINKS | blue -> tea -> DRINKS).
+COFFEE_CUSTOMER = (red -> coffee -> COFFEE_CUSTOMER). 
+TEA_CUSTOMER = (blue -> tea -> TEA_CUSTOMER).
+
+ 
+// Drinks Vend Machine & Customers 
+|| VendingSystem = ( Customers :: DRINKS || (cc:COFFEE_CUSTOMER || tc:TEA_CUSTOMER) ).
