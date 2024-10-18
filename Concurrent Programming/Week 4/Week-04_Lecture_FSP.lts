@@ -1,0 +1,673 @@
+/* **********************************************
+  6SENG006W Concurrent Programming
+  Paul Howells
+  Week 04 Lecture: All FSP programs, with some extra examples
+  9/10/2022
+
+********************************************** */
+
+
+////////////////////////////////////////////////
+// Asynchronous (Non-Shared) Action Process
+////////////////////////////////////////////////
+
+//  /* 
+
+ITCH     = ( scratch -> STOP ) .
+
+CONVERSE = ( think -> talk -> STOP ) .
+
+
+|| CONVERSE_ITCH = ( ITCH || CONVERSE ) .
+
+
+//  */
+
+
+////////////////////////////////////////////////////////////////
+//  Synchronous (Shared) Action Process
+//   sync(BILL BEN) 
+//     = alphabet(BILL) intersection  alphabet(BEN) = { meet }
+////////////////////////////////////////////////////////////////
+//  
+/* 
+
+BILL = ( play -> meet -> STOP ) .
+
+BEN  = ( work -> meet -> STOP ) .
+
+
+|| BILL_BEN = ( BILL || BEN ) .
+
+
+
+// || BILL_BENhide = ( BILL || BEN ) \ { meet }.
+
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+//  
+/* 
+
+MAKER = ( make -> ready -> MAKER ) .
+
+USER  = ( ready -> use -> USER ) .
+
+
+|| MAKER_USER = ( MAKER || USER ) .
+
+// 
+*/
+
+
+//  
+/* 
+
+MAKERv2 = ( make -> ready -> used -> MAKERv2 ) .
+
+USERv2  = ( ready -> use -> used -> USERv2 ) .
+
+
+|| MAKER_USERv2 = ( MAKERv2 || USERv2 ) .
+
+// 
+*/
+
+////////////////////////////////////////////////
+
+
+// 
+/* 
+
+MAKE_A = ( makeA -> ready -> used -> MAKE_A ) .
+
+MAKE_B = ( makeB -> ready -> used -> MAKE_B ) .
+
+
+ASSEMBLE = ( ready -> assemble -> used -> ASSEMBLE ) .
+
+
+|| FACTORY_1 = ( MAKE_A || MAKE_B || ASSEMBLE ) .
+
+
+// /*
+
+
+// Better version is to combine the MAKERs first:
+
+|| MAKERS = ( MAKE_A || MAKE_B ) .
+
+
+|| FACTORY_2 = ( MAKERS || ASSEMBLE ) .
+
+
+// 
+*/
+
+/////////////////////////////////////////////////////////////
+// Achieving Mutually Exclusive Access to a Shared Resource
+/////////////////////////////////////////////////////////////
+
+//  
+/* 
+
+// Define Interface - a set of actions
+
+set Interface = { acquire, release, in, out }
+
+
+PROC = ( Interface -> do_process -> PROC ) .
+
+
+Expanded_PROC_1 
+      =  ( { acquire, release, in, out } -> do_process -> Expanded_PROC_1 ) .
+
+ 
+
+Expanded_PROC_2 =  (   acquire -> do_process -> Expanded_PROC_2 
+                     |
+                       release -> do_process -> Expanded_PROC_2 
+                     |
+                       in      -> do_process -> Expanded_PROC_2 
+                     |
+                       out     -> do_process -> Expanded_PROC_2 
+                   ) .
+                     
+// 
+*/
+
+////////////////////////////////////////////////
+// Using Parameterised Processes in Parallel
+////////////////////////////////////////////////
+
+//  
+/* 
+
+const N   = 3
+
+const UL1 = 4
+const UL2 = 5
+
+
+// Define parameterised process
+
+BUFF3( N = 3 ) = ( in[ i : 0..N ] -> out[ i ] -> BUFF3 ) .
+
+
+// Call parameterised processes
+
+|| BS = ( BUFF3( UL1 ) || BUFF3( UL2 ) ) .
+
+// 
+*/
+
+
+////////////////////////////////////////////////////////
+// Parallel Composition of Identical Processes: SWITCH
+////////////////////////////////////////////////////////
+
+//  
+/* 
+
+SWITCH = ( on -> off -> SWITCH ) .
+
+
+//
+ || NOT_TWO_SWITCHES = ( SWITCH || SWITCH ) . 
+
+
+
+// || TWO_SWITCHES_1  =  ( a:SWITCH || b:SWITCH ) .
+
+
+// || TWO_SWITCHES_2  =  ( { a, b } : SWITCH ) .
+
+// 
+*/
+
+
+//////////////////////////////////////////////////////
+// Multiple Switches: an “array” of SWITCH processes
+//////////////////////////////////////////////////////
+
+//  
+/* 
+
+SWITCH = ( on -> off -> SWITCH ) .
+
+
+|| SWITCHES_1( N = 3 )  =  ( forall[ i : 1..N ]  s[i]:SWITCH  ) .
+
+
+|| SWITCHES_2( N = 3 )  =  ( s[ i : 1..N ] : SWITCH ) .
+
+
+|| SWITCHES_3  =  ( s[1]:SWITCH  ||  s[2]:SWITCH  ||  s[3]:SWITCH ) .
+
+
+|| SWITCHES_4  =  SWITCHES_1( 4 ) .
+
+
+|| SWITCHES_6  =  SWITCHES_1( 6 ) .
+
+
+|| SWITCHES_16  =  SWITCHES_1( 16 ) .
+
+
+// 
+*/
+
+////////////////////////////////////////////////////
+// Mutual Exclusion: 2 processes sharing a resource
+////////////////////////////////////////////////////
+
+//  
+/* 
+
+// Basic processes
+
+RESOURCE =  ( acquire -> release -> RESOURCE ) .
+
+USER     =  ( acquire -> use -> release -> USER ) .
+
+
+
+// Expanded  a:USER  &  b:USER
+ 
+A_USER  =  ( a.acquire -> a.use -> a.release -> A_USER ) .
+
+B_USER  =  ( b.acquire -> b.use -> b.release -> B_USER ) .
+
+
+
+// Expanded  { a, b }::RESOURCE 
+
+AB_RESOURCE  =  (  { a.acquire, b.acquire } ->  { a.release, b.release } -> AB_RESOURCE  ) .
+
+
+
+// Complete ME system
+
+//
+|| ME_SHARED_RESOURCE   =  (  a : USER  ||  b : USER  ||  { a, b } :: RESOURCE  ) .
+
+
+// || USERS = (  a : USER  ||  b : USER ). 
+
+// || ME_SHARED_RESOURCE   =  (  USERS  ||  { a, b } :: RESOURCE  ) .
+
+
+
+// 
+*/
+
+
+////////////////////////////////////////////////
+//  Process (Action) Relabelling
+////////////////////////////////////////////////
+
+
+// Relabelling: CLIENT & SERVER  (version 1) 
+
+//  
+/* 
+
+CLIENT  =  ( call -> wait -> continue -> CLIENT ) .
+
+SERVER  =  ( request -> service -> reply -> SERVER ) .
+
+|| RelabledSERVER  =  (  SERVER / { call/request } ) .
+
+|| CLIENT_SERVER = (    ( CLIENT / { reply/wait } )
+                     || 
+                       // ( SERVER / { call/request } ) 
+                       RelabledSERVER
+                    ) .
+
+// 
+*/
+
+
+// Relabelling: CLIENT & SERVER  (version 1) 
+
+//  
+/* 
+
+CLIENTv2  =  ( call.request -> call.reply -> continue -> CLIENTv2 ) .
+
+SERVERv2  =  ( accept.request -> service -> accept.reply -> SERVERv2 ) .
+
+
+||CLIENT_SERVERv2  =  ( CLIENTv2 || SERVERv2 )  / { call/accept } .
+
+// 
+*/
+
+////////////////////////////////////////////////
+// Hiding Actions
+//
+// Use ltsa’s “minimisation” (///) feature 
+////////////////////////////////////////////////
+
+
+// Using - Hiding "\"
+//  
+/* 
+
+set HideAction = { use }
+
+USER = ( acquire -> use -> release -> USER ) \ HideAction .
+
+USER2tau = ( acquire -> use -> use -> release -> USER2tau ) \ HideAction .
+
+// 
+*/
+
+
+// Using - Interface "@"
+//  
+/* 
+
+set Interface  =  { acquire, release }
+
+USER = ( acquire -> use -> release -> USER ) @ Interface .
+
+// 
+*/
+
+
+//  
+/* 
+
+set HideActions  =  { b, c }
+set Interface    =  { b, c }
+
+//
+*/
+
+// P7  =  ( a -> b -> c -> d -> STOP ) \ HideActions .
+
+//  
+/* 
+
+P8  =  (   a -> (   b -> STOP 
+                  | c -> d -> STOP 
+                ) 
+       ) @ Interface .
+
+// 
+*/
+
+//  
+/*
+P9  =  (   a -> (   b -> P9 
+                  | c -> d -> P9 
+                ) 
+       ) \ HideActions .
+//  
+*/
+
+//  
+/*
+
+P10  =  (   a -> (  b -> P10 
+                  | c -> d -> P10 
+                  | e -> f -> g -> P10 
+                ) 
+       ) \ { b, c, e, f } .
+
+//  
+*/
+
+
+// Try this one double hiding one
+
+// INF = ( a -> b -> INF ) \ { a, b }.
+
+// What's happening?
+
+////////////////////////////////////////////////
+// Process Alphabet Extensions
+////////////////////////////////////////////////
+
+
+//  /* 
+
+// WRITER_13  =  ( write[1] -> write[3] -> WRITER_13 ) .
+
+
+
+// Alphabet extension with the actions write[0..3]
+
+
+// WRITER_0123 = ( write[1] -> write[3] -> WRITER_0123 )  +{  write[ 0..3 ]  } .
+
+// */
+
+///////////////////////////////////////////////
+
+/*
+Alphabets:
+
+alphabet(A) = { a, b }
+
+alphabet(B) = alphabet(C) = { a, b, c, d }
+
+alphabet(AC) = alphabet(BC) = { a, b, c, d }
+
+
+Synchronised actions for each parallel process are:
+
+sync(AC) = alphabet(A) ∩ alphabet(C) = { a, b }
+
+sync(BC) = alphabet(B) ∩ alphabet(C) = { a, b, c, d }
+
+*/
+
+// 
+/* 
+
+set BLOCK = { c, d }
+
+A  =  ( a -> b -> A ) .
+
+B  =  ( a -> b -> B ) + BLOCK .
+
+C  =  ( {a, b, c, d } -> C ) .
+
+
+||AC = ( A || C ) .
+
+
+||BC = ( B || C ) .
+
+
+// 
+*/
+
+
+
+////////////////////////////////////////////////
+//  Inter-Process Communication: 
+//        Passing Data between Processes
+////////////////////////////////////////////////
+
+
+// Sender sends a value to Receiver
+
+// 
+/* 
+
+const MAX  =  3
+
+range DATA =  1..MAX
+
+set ALL_DATA = { message[DATA] }    // = { message[1], message[2], message[3] } 
+
+
+// Sender process:
+
+Sender( VAL = 1 )  =  ( message[ VAL ] -> assignedToX[ VAL ] -> END ) +ALL_DATA .
+
+
+// Receiver process: 
+
+Receiver  =  ( message[ x : DATA ] -> valueOfX[ x ] -> END ) .
+
+
+// IPC system:  "x = 1"
+
+// const VALUE  =  1
+
+|| DistributedAssignment  =  (  Sender( 1 ) || Receiver ) .
+
+
+// 
+*/
+
+//////////////////////////////////////////////////////
+// Faulty Communication  (not in the Lecture notes)
+/////////////////////////////////////////////////////
+
+/*
+  In this faulty example with Sender without +ALL_DATA - allows Receiver 
+  to assign a vaule not sent to it.
+  This can happen because the other message[ x ] value actions that Receiver 
+  can do message[1] & message[2], are no longer forced to be perfomed 
+  synchronously with Sender, as they are no longer blocked by +ALL_DATA, as 
+  a result they become asynchronous actions for Receiver. 
+*/
+
+// /* 
+
+const MAX  =  3
+
+range DATA =  1..MAX
+
+set ALL_DATA = { message[DATA] }    // = { message[1], message[2], message[3] } 
+
+
+// Receiver process: 
+
+Receiver  =  ( message[ x : DATA ] -> valueOfX[ x ] -> END ) .
+
+
+// Faulty Sender process:
+
+
+Faulty_Sender( VAL = 2 )  =  ( message[ VAL ] -> assignedToX[ VAL ] -> END ) .  // +ALL_DATA .
+
+
+// const VALUE  =  1
+
+|| Faulty_DistributedAssignment  =  (  Faulty_Sender( 1 ) || Receiver  ) .
+
+// */
+
+
+///////////////////////////////////////////////
+// 2-way IPC  (not in the Lecture notes)
+//
+// PROC sends a value VAL to DOUBLE, 
+// then DOUBLE sends 2*VAL back to PROC 
+///////////////////////////////////////////////
+
+
+// 
+/* 
+
+const MAX  =  2
+
+range IN_DATA =  0..MAX
+
+range OUT_DATA =  0..(2 * MAX)
+
+set ALL_DATA = { data[ IN_DATA ], result[ OUT_DATA ]  }
+    
+//           = { data[0] , data[1], data[2], data[3],  
+//               result[0] , result[1], result[2], result[3], result[4] } 
+
+
+
+// Sender/Receiver process:
+
+PROC( X = 0 )  =  ( data[ X ] -> sent[ X ] -> result[ r : OUT_DATA ] -> answer[ r ] -> END )  +ALL_DATA .
+
+
+// Receiver/Sender process: 
+
+DOUBLE  =  ( data[ x : IN_DATA ] -> doCalc -> result[ 2 * x ] -> END )  +ALL_DATA .
+
+
+
+const X  =  1
+
+|| TwoWayIPC  =  (  PROC( X )  ||  DOUBLE  ) .
+
+
+// 
+*/
+
+
+
+///////////////////////////////////////////////////////////
+/* Structure Diagram Example 1:  TWOBUFF
+
+   See Figure : 4.14 Two-slot buffer TWOBUFF.
+
+   The transfer of a value between the two 1-element buffers 
+   appears as a "tau" action in TWOBUFF LTS graph.
+
+   Use ltsa's "minimise" feature to hide the "tau" actions.
+*/
+///////////////////////////////////////////////////////////
+
+
+// 
+/* 
+
+const MAX_INT = 3
+
+range INT     = 0..MAX_INT
+
+
+BUFF = ( in[ i : INT ] -> out[ i ] -> BUFF ) .
+
+
+// 2 buffer process:
+// - Re-label in, out & inter-buffer actions.
+// - Hide the inter-buffer actions a.out[INT] using @.
+
+// 
+/*
+
+|| TWOBUFF =  (  ( a:BUFF || b:BUFF )  
+                     / { in/a.in, atob/a.out, atob/b.in, out/b.out }  
+              )  @ { in, out } .
+
+//  
+*/
+
+// 
+/*
+
+|| THREEBUFF =  (  ( a:BUFF || b:BUFF  || c:BUFF )  
+                        / { in/a.in, atob/a.out, atob/b.in, btoc/b.out,  btoc/c.in,  out/c.out }  
+                )  @ { in, out } .
+
+
+//  
+*/
+
+
+
+
+// Buffer system
+
+//  
+/*
+
+SOURCE = ( in[0] -> in[1] -> in[2] -> in[3] -> END ) .
+
+
+SINK = ( out[0] -> out[1] -> out[2] -> out[3] -> isABuffer -> END ) .
+
+|| BUFFER_SYSTEM  = ( SOURCE || THREEBUFF || SINK ) @{ isABuffer } .
+
+
+// 
+*/
+
+
+// */
+
+
+
+
+///////////////////////////////////////////////////////////
+/* Structure Diagram Example 2: PRINTER_SHARE
+
+   See Figure : 4.14 4.15 Resource-sharing PRINTER_SHARE.
+*/
+///////////////////////////////////////////////////////////
+
+
+// 
+/* 
+
+USER  =  ( printer.acquire -> use -> printer.release -> USER ) .
+
+RESOURCE  =  ( acquire -> release -> RESOURCE ) .
+
+
+|| PRINTER_SHARE = (    a : USER || b : USER
+                     || { a, b } :: printer : RESOURCE 
+                   ) .
+
+// 
+*/
+
+///////////////////////////////////////////////////////////////////////////////////

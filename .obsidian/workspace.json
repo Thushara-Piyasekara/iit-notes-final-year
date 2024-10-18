@@ -4,26 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "8ff9d82b80ea0ee0",
+        "id": "3e830e7613c0bb5b",
         "type": "tabs",
-        "dimension": 67.1219512195122,
+        "dimension": 58.31556503198294,
         "children": [
           {
-            "id": "5a8cbac8414d5692",
+            "id": "b227dd275876725f",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 4/Week_4_lecture_slides.pdf"
-              }
+                "file": "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
+                "page": 8,
+                "left": -7,
+                "top": 239,
+                "zoom": 2.153871594526438
+              },
+              "icon": "lucide-file-text",
+              "title": "Week-04_FSP_Modelling_III"
             }
           }
         ]
       },
       {
-        "id": "a265ff569fa7faa8",
+        "id": "3111ea0f98a5d7d8",
         "type": "tabs",
-        "dimension": 32.87804878048781,
+        "dimension": 41.68443496801706,
         "children": [
           {
             "id": "914ea43592919385",
@@ -31,10 +37,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md",
+                "file": "Concurrent Programming/Week 4/Week 4.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Week 4"
             }
           }
         ]
@@ -57,7 +65,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -72,7 +82,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -80,14 +92,17 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 310.5
+    "width": 305.5,
+    "collapsed": true
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -103,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md",
+                "file": "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +126,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Week-04_FSP_Modelling_III"
             }
           },
           {
@@ -120,10 +137,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md",
+                "file": "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Week-04_FSP_Modelling_III"
             }
           },
           {
@@ -134,7 +153,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -143,8 +164,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md"
-              }
+                "file": "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Week-04_FSP_Modelling_III"
             }
           },
           {
@@ -152,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {}
+              "state": {},
+              "icon": "cloud",
+              "title": "QuickShare"
             }
           },
           {
@@ -164,7 +189,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -172,7 +199,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -185,6 +214,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -195,12 +227,21 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "914ea43592919385",
+  "active": "b227dd275876725f",
   "lastOpenFiles": [
+    "Concurrent Programming/Week 4/Week 4.md",
+    "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
+    "Concurrent Programming/Week 4/Week-04_Lecture_FSP.lts",
+    "Concurrent Programming/Week 4/Unconfirmed 159373.crdownload",
+    "Formal Methods/Week 2/Lecture 2.pdf",
+    "Formal Methods/Week 4/Week 4 Lecture Notes.md",
+    "Formal Methods/bbook.pdf",
+    "Concurrent Programming/Week 4/Week 4 tutorial.md",
+    "Concurrent Programming/Week 2/week 2 tutorial.pdf",
+    "README.md",
     "Resources/Pasted image 20241016151746.png",
     "Resources/Pasted image 20241016151427.png",
     "Formal Methods/Week 4/Week_4_lecture_slides.pdf",
-    "Formal Methods/Week 4/Week 4 Lecture Notes.md",
     "Resources/Pasted image 20241002111512.png",
     "Formal Methods/Week 4/PaperRound.mch",
     "Concurrent Programming/Week 4/PaperRound.mch",
@@ -208,22 +249,14 @@
     "Formal Methods/Week 4/Structure_Diagram.excalidraw.md",
     "Formal Methods/Week 4/Sets Tutorial.md",
     "Formal Methods/Week 3/Lecture Slides.pdf",
-    "Formal Methods/Week 3/Tutorial/Week-03_Set_Expressions.pdf",
-    "Formal Methods/Week 4/Week_4_Tutorial.pdf",
-    "Formal Methods/Week 2/Lecture 2.pdf",
     "Formal Methods/Week 2/Untitled.md",
-    "Formal Methods/Week 3/Tutorial/week 3 tutorial.pdf",
-    "Formal Methods/Week 3/Tutorial/Tutorial Week-03 - Tagged.pdf",
-    "Formal Methods/Week 3/Tutorial/Sets.mch",
     "Excalidraw/Drawing 2024-10-04 11.04.18.excalidraw.md",
     "Concurrent Programming/Week 3/Week 3 Tutorial.md",
     "Formal Methods/Week 3/Lecture 3 notes.md",
     "Time Tables.md",
     "Resources/Pasted image 20241016011936.png",
     "Concurrent Programming/Week 3/Lecture 3.md",
-    "Concurrent Programming/Week 4/Week 4 tutorial.md",
     "Formal Methods/Week 3/Untitled.md",
-    "Concurrent Programming/Week 4/Week 4.md",
     "Concurrent Programming/Week 2/Lecture 2.md",
     "Resources/Pasted image 20241011103016.png",
     "Resources/Pasted image 20241011103005.png",
@@ -231,7 +264,6 @@
     "Resources/Pasted image 20241011101123.png",
     "Resources/Pasted image 20241011100902.png",
     "Concurrent Programming/Week 1/HomeWork - Week 1.md",
-    "Resources/Pasted image 20241010231335.png",
     "Concurrent Programming/Week 1/HomeWork/Untitled.md",
     "Concurrent Programming/Week 1/HomeWork/Untitled 1.md",
     "conflict-files-obsidian-git.md",
@@ -242,7 +274,6 @@
     "Formal Methods/Week 2/Week 2 notes.md",
     "Untitled 1.md",
     "Formal Methods/Week 2/Tutorial/Untitled.md",
-    "Mobile Native/Untitled.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
