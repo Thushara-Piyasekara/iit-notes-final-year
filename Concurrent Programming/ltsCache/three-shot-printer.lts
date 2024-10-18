@@ -1,0 +1,7 @@
+const MaxPages = 3
+range PageLimit = 0..MaxPages
+
+PRINTER(N=MaxPages) = IDLE[N],
+
+IDLE[n:PageLimit] = (when(n>0 && n<=N) print -> IDLE[n-1] 
+                    | when(n==0) paperout -> reload[p:PageLimit] -> IDLE[p]).

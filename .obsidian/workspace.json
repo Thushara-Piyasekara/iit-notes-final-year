@@ -6,7 +6,7 @@
       {
         "id": "3e830e7613c0bb5b",
         "type": "tabs",
-        "dimension": 59.3816631130064,
+        "dimension": 61.30063965884861,
         "children": [
           {
             "id": "b227dd275876725f",
@@ -59,9 +59,9 @@
               "type": "pdf",
               "state": {
                 "file": "Concurrent Programming/CourseWork/DRINKS_FSP_PROCESS_FORM.pdf",
-                "page": 4,
-                "left": -20,
-                "top": 739,
+                "page": 1,
+                "left": 37,
+                "top": 845,
                 "zoom": 1.3
               },
               "icon": "lucide-file-text",
@@ -74,11 +74,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
-                "page": 2,
-                "left": -11,
-                "top": 430,
-                "zoom": 1.3379359000201574
+                "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf"
               },
               "icon": "lucide-file-text",
               "title": "Drinks_Vending_Machine_FSP_COMPOSITION_FORM"
@@ -91,10 +87,10 @@
               "type": "pdf",
               "state": {
                 "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM (1).pdf",
-                "page": 2,
-                "left": -14,
-                "top": 88,
-                "zoom": 1.0884902237452128
+                "page": 1,
+                "left": -19,
+                "top": 846,
+                "zoom": 0.7987300947389638
               },
               "icon": "lucide-file-text",
               "title": "Drinks_Vending_Machine_FSP_COMPOSITION_FORM (1)"
@@ -149,12 +145,12 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "3111ea0f98a5d7d8",
         "type": "tabs",
-        "dimension": 40.6183368869936,
+        "dimension": 38.69936034115138,
         "children": [
           {
             "id": "914ea43592919385",
@@ -168,6 +164,38 @@
               },
               "icon": "lucide-file",
               "title": "CourseWork"
+            }
+          },
+          {
+            "id": "2ce7e2ed5dae28c5",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
+                "page": 12,
+                "left": -5,
+                "top": 137,
+                "zoom": 2.8277316135433463
+              },
+              "icon": "lucide-file-text",
+              "title": "Week-02_FSP-Modelling-1_ACC"
+            }
+          },
+          {
+            "id": "24fd1174dd087eac",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
+                "page": 19,
+                "left": -12,
+                "top": 84,
+                "zoom": 1.2774401587498452
+              },
+              "icon": "lucide-file-text",
+              "title": "Week-03_FSP_Modelling_II"
             }
           },
           {
@@ -368,21 +396,25 @@
   },
   "active": "914ea43592919385",
   "lastOpenFiles": [
-    "Concurrent Programming/CourseWork/DRINKS_FSP_PROCESS_FORM.pdf",
+    "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
+    "Concurrent Programming/ltsCache/three-shot-printer.lts",
+    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
     "Concurrent Programming/Week 4/CourseWork.md",
+    "Formal Methods/Week 2/Lecture 2.pdf",
+    "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_JUNCTION_EXAMPLE.odt",
+    "Concurrent Programming/CourseWork/lu667855lmi5.tmp",
+    "Concurrent Programming/CourseWork/FSP_COMPOSITION_FORM_22-23_JUNCTION_EXAMPLE.odt",
+    "Concurrent Programming/CourseWork/lu667855lmi0.tmp",
+    "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
+    "Concurrent Programming/CourseWork/DRINKS_FSP_PROCESS_FORM.pdf",
+    "Concurrent Programming/CourseWork/FSP_COMPOSITION_FORM_22-23_JUNCTION_EXAMPLE.docx",
+    "Resources/Pasted image 20241018095451.png",
+    "Resources/Pasted image 20241018094934.png",
+    "Resources/Pasted image 20241018093226.png",
+    "Concurrent Programming/Week 4/Week 4.md",
     "Resources/Pasted image 20241018091954.png",
     "Resources/Pasted image 20241018091014.png",
     "Resources/Pasted image 20241018090854.png",
-    "Concurrent Programming/Week 4/Week 4.md",
-    "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
-    "Concurrent Programming/CourseWork/DRINKS_FSP_PROCESS_FORM.docx",
-    "Concurrent Programming/ltsCache/courseworkTemp.lts",
-    "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
-    "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23 (1).docx",
-    "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23.docx",
-    "Concurrent Programming/CourseWork/FSP_COMPOSITION_FORM_22-23(1).docx",
-    "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM(1).docx",
-    "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM (1).pdf",
     "Formal Methods/Week 4/Week 4 Lecture Notes.md",
     "Concurrent Programming/Week 4/Week 4 tutorial.md",
     "README.md",
@@ -397,12 +429,9 @@
     "Concurrent Programming/Week 3/Week 3 Tutorial.md",
     "Formal Methods/Week 3/Lecture 3 notes.md",
     "Time Tables.md",
-    "Resources/Pasted image 20241016011936.png",
     "Concurrent Programming/Week 3/Lecture 3.md",
     "Formal Methods/Week 3/Untitled.md",
     "Concurrent Programming/Week 2/Lecture 2.md",
-    "Resources/Pasted image 20241011103016.png",
-    "Resources/Pasted image 20241011103005.png",
     "Concurrent Programming/Week 1/HomeWork - Week 1.md",
     "Concurrent Programming/Week 1/HomeWork/Untitled.md",
     "Concurrent Programming/Week 1/HomeWork/Untitled 1.md",

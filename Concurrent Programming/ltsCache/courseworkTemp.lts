@@ -2,8 +2,8 @@ set VMActions = { red, coffee, blue, tea }
 set Customers = { cc, tc }
 
 DRINKS = (red -> coffee -> DRINKS | blue -> tea -> DRINKS).
-COFFEE_CUSTOMER = (red -> coffee -> COFFEE_CUSTOMER). 
-TEA_CUSTOMER = (blue -> tea -> TEA_CUSTOMER).
+COFFEE_CUSTOMER = (red -> coffee -> COFFEE_CUSTOMER) + VMActions. 
+TEA_CUSTOMER = (blue -> tea -> TEA_CUSTOMER) + VMActions.
 
  
 // Drinks Vend Machine & Customers 

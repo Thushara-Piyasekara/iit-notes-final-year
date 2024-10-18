@@ -34,15 +34,27 @@
 
 ////////////// With Traffic Controller
 
-TRAFFIC_LANE = (orangeRed -> green -> orange -> red -> TRAFFIC_LANE).
-||JUNCTION_3 = ({lane1, lane2} :  TRAFFIC_LANE || TRAFFIC_CONTROLLER).
+//TRAFFIC_LANE = (orangeRed -> green -> orange -> red -> TRAFFIC_LANE).
+//||JUNCTION_3 = ({lane1, lane2} :  TRAFFIC_LANE || TRAFFIC_CONTROLLER).
 
-TRAFFIC_CONTROLLER = (lane1.orangeRed -> lane1.green -> lane1.orange -> lane1.red -> lane2.orangeRed -> lane2.green -> lane2.orange -> lane2.red -> TRAFFIC_CONTROLLER).
+//TRAFFIC_CONTROLLER = (lane1.orangeRed -> lane1.green -> lane1.orange -> lane1.red -> lane2.orangeRed -> lane2.green -> lane2.orange -> lane2.red -> TRAFFIC_CONTROLLER).
 
+///////////// Week 4 ////////////////////////
 
+TRAFFIC_LIGHT = (red->a.redOrange->green->orange->TRAFFIC_LIGHT).
 
+COP = (a.red -> a.orangeLight -> c.red -> c.orangeLight -> COP ) .
 
-
+||JUNCTION = ({a,b,c,d} : TRAFFIC_LIGHT || COP)/
+    {a.red / b.red,
+    a.redOrange / b.redOrange,
+    a.greenLight / { a.green, b.green }, 
+    a.orangeLight/{a.orange, b.orange},
+    c.red / d.red,
+    c.redOrange / d.redOrange,
+    a.greenLight / {c.green, d.green },
+    a.orangeLight/ { c.orange,d.orange}
+}.
 
 
 
