@@ -6,7 +6,7 @@
       {
         "id": "3e830e7613c0bb5b",
         "type": "tabs",
-        "dimension": 61.30063965884861,
+        "dimension": 53.942115768463076,
         "children": [
           {
             "id": "b227dd275876725f",
@@ -16,8 +16,8 @@
               "state": {
                 "file": "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
                 "page": 8,
-                "left": -7,
-                "top": 239,
+                "left": -30,
+                "top": 243,
                 "zoom": 2.153871594526438
               },
               "icon": "lucide-file-text",
@@ -31,10 +31,10 @@
               "type": "pdf",
               "state": {
                 "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
-                "page": 2,
-                "left": -11,
-                "top": 80,
-                "zoom": 1.312739367063092
+                "page": 1,
+                "left": -12,
+                "top": 846,
+                "zoom": 1.2963616206409998
               },
               "icon": "lucide-file-text",
               "title": "Drinks_Vending_Machine_FSP_COMPOSITION_FORM"
@@ -49,7 +49,7 @@
                 "file": "Concurrent Programming/CourseWork/DRINKS_FSP_PROCESS_FORM.docx"
               },
               "icon": "lucide-file",
-              "title": "DRINKS_FSP_PROCESS_FORM.docx"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -74,10 +74,30 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf"
+                "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
+                "page": 1,
+                "left": -11,
+                "top": 846,
+                "zoom": 1.4815561378754283
               },
               "icon": "lucide-file-text",
               "title": "Drinks_Vending_Machine_FSP_COMPOSITION_FORM"
+            }
+          },
+          {
+            "id": "5016c70e941a211d",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Concurrent Programming/concurrency-state-models-amp-java-programs.pdf",
+                "page": 2,
+                "left": -11,
+                "top": 53,
+                "zoom": 1.4823529411764707
+              },
+              "icon": "lucide-file-text",
+              "title": "concurrency-state-models-amp-java-programs"
             }
           },
           {
@@ -105,7 +125,7 @@
                 "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM(1).docx"
               },
               "icon": "lucide-file",
-              "title": "Drinks_Vending_Machine_FSP_COMPOSITION_FORM(1).docx"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -117,7 +137,7 @@
                 "file": "Concurrent Programming/CourseWork/FSP_COMPOSITION_FORM_22-23(1).docx"
               },
               "icon": "lucide-file",
-              "title": "FSP_COMPOSITION_FORM_22-23(1).docx"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -129,7 +149,7 @@
                 "file": "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23.docx"
               },
               "icon": "lucide-file",
-              "title": "FSP_PROCESS_FORM_22-23.docx"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -141,16 +161,26 @@
                 "file": "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23 (1).docx"
               },
               "icon": "lucide-file",
-              "title": "FSP_PROCESS_FORM_22-23 (1).docx"
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "24fa135f895e6b3b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       },
       {
         "id": "3111ea0f98a5d7d8",
         "type": "tabs",
-        "dimension": 38.69936034115138,
+        "dimension": 46.057884231536924,
         "children": [
           {
             "id": "914ea43592919385",
@@ -158,12 +188,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concurrent Programming/Week 4/CourseWork.md",
+                "file": "Concurrent Programming/Week 4/Coursework - Discussion.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CourseWork"
+              "title": "Coursework - Discussion"
+            }
+          },
+          {
+            "id": "0de62da5c826359b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.7.4"
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.7.4"
             }
           },
           {
@@ -174,8 +216,8 @@
               "state": {
                 "file": "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
                 "page": 12,
-                "left": -5,
-                "top": 137,
+                "left": -4,
+                "top": 141,
                 "zoom": 2.8277316135433463
               },
               "icon": "lucide-file-text",
@@ -190,8 +232,8 @@
               "state": {
                 "file": "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
                 "page": 19,
-                "left": -12,
-                "top": 84,
+                "left": -86,
+                "top": 88,
                 "zoom": 1.2774401587498452
               },
               "icon": "lucide-file-text",
@@ -212,7 +254,8 @@
               "title": "Week 4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -338,16 +381,6 @@
             }
           },
           {
-            "id": "e2ca4a8ff713d8bf",
-            "type": "leaf",
-            "state": {
-              "type": "QUICKSHARE_SIDE_VIEW",
-              "state": {},
-              "icon": "cloud",
-              "title": "QuickShare"
-            }
-          },
-          {
             "id": "ba5faceb40ab78f8",
             "type": "leaf",
             "state": {
@@ -367,12 +400,12 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -381,37 +414,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "914ea43592919385",
+  "active": "0de62da5c826359b",
   "lastOpenFiles": [
-    "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
-    "Concurrent Programming/ltsCache/three-shot-printer.lts",
-    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
-    "Concurrent Programming/Week 4/CourseWork.md",
-    "Formal Methods/Week 2/Lecture 2.pdf",
-    "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_JUNCTION_EXAMPLE.odt",
-    "Concurrent Programming/CourseWork/lu667855lmi5.tmp",
-    "Concurrent Programming/CourseWork/FSP_COMPOSITION_FORM_22-23_JUNCTION_EXAMPLE.odt",
-    "Concurrent Programming/CourseWork/lu667855lmi0.tmp",
     "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
-    "Concurrent Programming/CourseWork/DRINKS_FSP_PROCESS_FORM.pdf",
-    "Concurrent Programming/CourseWork/FSP_COMPOSITION_FORM_22-23_JUNCTION_EXAMPLE.docx",
+    "Concurrent Programming/Week 4/Coursework - Discussion.md",
+    "Concurrent Programming/Week 4/Week 4.md",
+    "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
+    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
+    "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23 (1).docx",
+    "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23.docx",
+    "Concurrent Programming/CourseWork/FSP_COMPOSITION_FORM_22-23(1).docx",
+    "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
+    "Concurrent Programming/concurrency-state-models-amp-java-programs.pdf",
+    "Concurrent Programming/ltsCache/three-shot-printer.lts",
+    "Formal Methods/Week 2/Lecture 2.pdf",
     "Resources/Pasted image 20241018095451.png",
     "Resources/Pasted image 20241018094934.png",
     "Resources/Pasted image 20241018093226.png",
-    "Concurrent Programming/Week 4/Week 4.md",
     "Resources/Pasted image 20241018091954.png",
     "Resources/Pasted image 20241018091014.png",
     "Resources/Pasted image 20241018090854.png",
