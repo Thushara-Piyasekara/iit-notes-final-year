@@ -16,8 +16,8 @@
               "state": {
                 "file": "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
                 "page": 8,
-                "left": -30,
-                "top": 243,
+                "left": -5,
+                "top": 247,
                 "zoom": 2.153871594526438
               },
               "icon": "lucide-file-text",
@@ -174,8 +174,7 @@
               "title": "New tab"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3111ea0f98a5d7d8",
@@ -427,7 +426,7 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "0de62da5c826359b",
+  "active": "b227dd275876725f",
   "lastOpenFiles": [
     "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
     "Concurrent Programming/Week 4/Coursework - Discussion.md",
