@@ -4,256 +4,91 @@
     "type": "split",
     "children": [
       {
-        "id": "3e830e7613c0bb5b",
+        "id": "5a62682351c5f5a8",
         "type": "tabs",
-        "dimension": 53.942115768463076,
+        "dimension": 59.83606557377049,
         "children": [
           {
-            "id": "914ea43592919385",
+            "id": "36e06d6cd61e4b2e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Formal Methods/Week 5/lecture05.pdf",
+                "page": 18,
+                "left": -7,
+                "top": 29,
+                "zoom": 2.0071106701393195
+              },
+              "icon": "lucide-file-text",
+              "title": "lecture05"
+            }
+          },
+          {
+            "id": "792b583fa1640311",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concurrent Programming/Week 4/Coursework - Discussion.md",
+                "file": "Formal Methods/Week 5/Week 5 - Lec Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Coursework - Discussion"
-            }
-          },
-          {
-            "id": "b227dd275876725f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
-                "page": 8,
-                "left": -5,
-                "top": 247,
-                "zoom": 2.153871594526438
-              },
-              "icon": "lucide-file-text",
-              "title": "Week-04_FSP_Modelling_III"
-            }
-          },
-          {
-            "id": "c59d7d67bc10ff83",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
-                "page": 1,
-                "left": -12,
-                "top": 846,
-                "zoom": 1.2963616206409998
-              },
-              "icon": "lucide-file-text",
-              "title": "Drinks_Vending_Machine_FSP_COMPOSITION_FORM"
-            }
-          },
-          {
-            "id": "3d1dbda6eb4ca771",
-            "type": "leaf",
-            "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Concurrent Programming/CourseWork/DRINKS_FSP_PROCESS_FORM.docx"
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "7c94667767394a88",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/CourseWork/DRINKS_FSP_PROCESS_FORM.pdf",
-                "page": 1,
-                "left": 37,
-                "top": 845,
-                "zoom": 1.3
-              },
-              "icon": "lucide-file-text",
-              "title": "DRINKS_FSP_PROCESS_FORM"
-            }
-          },
-          {
-            "id": "70ce6e2128e55374",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
-                "page": 1,
-                "left": -11,
-                "top": 846,
-                "zoom": 1.4815561378754283
-              },
-              "icon": "lucide-file-text",
-              "title": "Drinks_Vending_Machine_FSP_COMPOSITION_FORM"
-            }
-          },
-          {
-            "id": "5016c70e941a211d",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/concurrency-state-models-amp-java-programs.pdf",
-                "page": 2,
-                "left": -11,
-                "top": 53,
-                "zoom": 1.4823529411764707
-              },
-              "icon": "lucide-file-text",
-              "title": "concurrency-state-models-amp-java-programs"
-            }
-          },
-          {
-            "id": "999c8bed195df807",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM (1).pdf",
-                "page": 1,
-                "left": -19,
-                "top": 846,
-                "zoom": 0.7987300947389638
-              },
-              "icon": "lucide-file-text",
-              "title": "Drinks_Vending_Machine_FSP_COMPOSITION_FORM (1)"
-            }
-          },
-          {
-            "id": "e3e49f9f82dc66dc",
-            "type": "leaf",
-            "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM(1).docx"
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "05c0aae5df7bc43a",
-            "type": "leaf",
-            "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Concurrent Programming/CourseWork/FSP_COMPOSITION_FORM_22-23(1).docx"
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "d6a99fb268d43dee",
-            "type": "leaf",
-            "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23.docx"
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "f3f8cf10db035015",
-            "type": "leaf",
-            "state": {
-              "type": "docx-view",
-              "state": {
-                "file": "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23 (1).docx"
-              },
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "24fa135f895e6b3b",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Week 5 - Lec Notes"
             }
           }
         ]
       },
       {
-        "id": "3111ea0f98a5d7d8",
+        "id": "8fb213873963938c",
         "type": "tabs",
-        "dimension": 46.057884231536924,
+        "dimension": 40.16393442622951,
         "children": [
           {
-            "id": "0de62da5c826359b",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.4"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.4"
-            }
-          },
-          {
-            "id": "2ce7e2ed5dae28c5",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
-                "page": 12,
-                "left": -4,
-                "top": 141,
-                "zoom": 2.8277316135433463
-              },
-              "icon": "lucide-file-text",
-              "title": "Week-02_FSP-Modelling-1_ACC"
-            }
-          },
-          {
-            "id": "24fd1174dd087eac",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
-                "page": 19,
-                "left": -86,
-                "top": 88,
-                "zoom": 1.2774401587498452
-              },
-              "icon": "lucide-file-text",
-              "title": "Week-03_FSP_Modelling_II"
-            }
-          },
-          {
-            "id": "2b5a67b76fd3d1d5",
+            "id": "5287da83dd7c7a25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concurrent Programming/Week 4/Week 4.md",
+                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 4"
+              "title": "Week 4 Lecture Notes"
+            }
+          },
+          {
+            "id": "1d9c01392155b5c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formal Methods/Week 5/Week 5 - Lec Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 5 - Lec Notes"
+            }
+          },
+          {
+            "id": "719f8958c32c3ff4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formal Methods/Week 2/Week 2 Lec notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 2 Lec notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -305,7 +140,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -425,35 +261,40 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "914ea43592919385",
+  "active": "36e06d6cd61e4b2e",
   "lastOpenFiles": [
-    "Concurrent Programming/Week 4/Week-04_FSP_Modelling_III.pdf",
-    "Concurrent Programming/CourseWork/Drinks_Vending_Machine_FSP_COMPOSITION_FORM.pdf",
-    "Concurrent Programming/Week 4/Coursework - Discussion.md",
+    "Formal Methods/Week 5/Week 5 - Lec Notes.md",
+    "TODO.md",
+    "Formal Methods/Week 5/lecture05.pdf",
+    "Formal Methods/Week 4/Week 4 Lecture Notes.md",
+    "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Concurrent Programming/Week 4/Week 4.md",
+    "Formal Methods/Week 5/lecture05.pdf.crdownload",
+    "Formal Methods/Week 5/Tutorial/Tutorial_5.md",
+    "Formal Methods/Week 4/Tutorial/Sets Tutorial.md",
+    "Formal Methods/Week 5/Tutorial",
+    "Formal Methods/Week 4/Tutorial/Week_4_Tutorial.pdf",
+    "Formal Methods/Week 2/Tutorial/PaperRound_B-Machine (1).pdf",
+    "Formal Methods/Week 4/Tutorial",
+    "Formal Methods/Week 4/lecture04.pdf",
+    "Formal Methods/Week 5/Tutorial/noughtsAndCrosses.mch",
+    "Formal Methods/Week 4/Tutorial/Structure_Diagram.excalidraw.md",
     "Concurrent Programming/Week 3/Week-03_FSP_Modelling_II.pdf",
-    "Concurrent Programming/Week 2/Week-02_FSP-Modelling-1_ACC.pdf",
-    "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23 (1).docx",
-    "Concurrent Programming/CourseWork/FSP_PROCESS_FORM_22-23.docx",
-    "Concurrent Programming/CourseWork/FSP_COMPOSITION_FORM_22-23(1).docx",
-    "Concurrent Programming/concurrency-state-models-amp-java-programs.pdf",
-    "Concurrent Programming/ltsCache/three-shot-printer.lts",
-    "Formal Methods/Week 2/Lecture 2.pdf",
+    "Resources/Pasted image 20241023102516.png",
+    "Formal Methods/bbook.pdf",
+    "Formal Methods/Week 1/Week 1 - Lec Notes.md",
+    "Resources/Pasted image 20241023102317.png",
+    "Resources/Pasted image 20241023102223.png",
+    "Concurrent Programming/Week 4/Coursework - Discussion.md",
     "Resources/Pasted image 20241018095451.png",
     "Resources/Pasted image 20241018094934.png",
     "Resources/Pasted image 20241018093226.png",
     "Resources/Pasted image 20241018091954.png",
     "Resources/Pasted image 20241018091014.png",
     "Resources/Pasted image 20241018090854.png",
-    "Formal Methods/Week 4/Week 4 Lecture Notes.md",
     "Concurrent Programming/Week 4/Week 4 tutorial.md",
     "README.md",
     "Resources/Pasted image 20241016151746.png",
-    "Resources/Pasted image 20241016151427.png",
-    "Resources/Pasted image 20241002111512.png",
-    "Concurrent Programming/SampleICTs/Screenshot from 2024-10-16 13-51-01.png",
-    "Formal Methods/Week 4/Structure_Diagram.excalidraw.md",
-    "Formal Methods/Week 4/Sets Tutorial.md",
     "Formal Methods/Week 2/Untitled.md",
     "Excalidraw/Drawing 2024-10-04 11.04.18.excalidraw.md",
     "Concurrent Programming/Week 3/Week 3 Tutorial.md",
@@ -466,12 +307,7 @@
     "Concurrent Programming/Week 1/HomeWork/Untitled.md",
     "Concurrent Programming/Week 1/HomeWork/Untitled 1.md",
     "conflict-files-obsidian-git.md",
-    "Formal Methods/Week 2/Week 2 Lec notes.md",
-    "Formal Methods/Week 1/Week 1 - Lec Notes.md",
     "Formal Methods/Week 3/Tutorial/Week 3 Tutorial Notes.md",
-    "TODO.md",
-    "Formal Methods/Week 2/Week 2 notes.md",
-    "Untitled 1.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

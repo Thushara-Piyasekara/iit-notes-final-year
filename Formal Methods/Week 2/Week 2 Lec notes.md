@@ -12,7 +12,6 @@
 ### Other cases
 - For set difference (A - B),
 	- A should be a superset of B. Otherwise we cant do the operation.
-
 ### Subsets vs Strict Subsets
 - If there is a chance(We dont know for sure) of subset being equal to a superset, it is a `subset`.
 	- In this case subset could be equal to the superset.
