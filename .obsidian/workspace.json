@@ -14,11 +14,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 5/lecture05.pdf",
-                "page": 18,
-                "left": -7,
-                "top": 29,
-                "zoom": 2.0071106701393195
+                "file": "Formal Methods/Week 5/lecture05.pdf"
               },
               "icon": "lucide-file-text",
               "title": "lecture05"
@@ -264,8 +260,8 @@
   "active": "36e06d6cd61e4b2e",
   "lastOpenFiles": [
     "Formal Methods/Week 5/Week 5 - Lec Notes.md",
-    "TODO.md",
     "Formal Methods/Week 5/lecture05.pdf",
+    "TODO.md",
     "Formal Methods/Week 4/Week 4 Lecture Notes.md",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Concurrent Programming/Week 4/Week 4.md",
