@@ -28,8 +28,16 @@ public class MultiThreadedApp {
 		t2.start();
 		t3.start();
 
+
 	}
 
+  private void createAndRunThread() {
+    Thread newThread = new Thread(() -> {
+      for (int i - 0; i < 10; i++) {
+        System.out.println(Thread.currentThread().getName() + " " + i);
+      }
+    })
+  }
 }
 
 //for explanation https://chatgpt.com/share/66f62fd4-13d0-8011-9f6d-b0ac50359064

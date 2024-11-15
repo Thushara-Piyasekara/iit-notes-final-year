@@ -16,7 +16,7 @@ public class BankAccount {
 	// balance variable must happen inside synchronized 
 	// block
 	
-	public BankAccount(double balance, String accountNo) {
+j	public BankAccount(double balance, String accountNo) {
 		super();
 		this.balance = balance;
 		this.accountNo = accountNo;
@@ -37,7 +37,7 @@ public class BankAccount {
 		if(amount >= 0) {
 			balance += amount;
 		} else {
-			throw new IllegalArgumentException("Amount cannot be below ZERO");
+			throw new IllegalArgumentException("Amount cannot be less than zero");
 		}
 		System.out.println(Thread.currentThread().getName()+" balance after deposit "+balance);
 	}

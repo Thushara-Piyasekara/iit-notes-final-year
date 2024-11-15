@@ -1,4 +1,5 @@
 package lk.gugsi.cp.lecture01;
+
 public class MyThread {
 
 	public static void main(String[] args) {
@@ -8,7 +9,6 @@ public class MyThread {
 		// Application that thread name is main thread 
 		// Single Threaded Apartment 
 		// main method executes on the main thread 
-
 	}
 
 }
