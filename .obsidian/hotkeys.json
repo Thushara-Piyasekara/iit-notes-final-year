@@ -87,14 +87,6 @@
       "key": "M"
     }
   ],
-  "app:toggle-left-sidebar": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "`"
-    }
-  ],
   "editor:focus-left": [
     {
       "modifiers": [
@@ -165,6 +157,14 @@
         "Shift"
       ],
       "key": "Delete"
+    }
+  ],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "1"
     }
   ]
 }

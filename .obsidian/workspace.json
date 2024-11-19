@@ -4,46 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "5a62682351c5f5a8",
-        "type": "tabs",
-        "dimension": 56.10766045548654,
-        "children": [
-          {
-            "id": "36e06d6cd61e4b2e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Methods/Week 5/lecture05.pdf",
-                "page": 15,
-                "left": -7,
-                "top": 46,
-                "zoom": 2.133201041795858
-              },
-              "icon": "lucide-file-text",
-              "title": "lecture05"
-            }
-          },
-          {
-            "id": "792b583fa1640311",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formal Methods/Week 5/Week 5 - Lec Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week 5 - Lec Notes"
-            }
-          }
-        ]
-      },
-      {
         "id": "8fb213873963938c",
         "type": "tabs",
-        "dimension": 43.89233954451346,
         "children": [
           {
             "id": "5287da83dd7c7a25",
@@ -58,37 +20,8 @@
               "icon": "lucide-file",
               "title": "Week 4 Lecture Notes"
             }
-          },
-          {
-            "id": "1d9c01392155b5c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formal Methods/Week 5/Week 5 - Lec Notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week 5 - Lec Notes"
-            }
-          },
-          {
-            "id": "719f8958c32c3ff4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Formal Methods/Week 2/Week 2 Lec notes.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week 2 Lec notes"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -140,12 +73,11 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 200
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -260,10 +192,10 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "1d9c01392155b5c8",
+  "active": "b71ac319e7d5373e",
   "lastOpenFiles": [
-    "Formal Methods/Week 5/lecture05.pdf",
     "Formal Methods/Week 5/Week 5 - Lec Notes.md",
+    "Formal Methods/Week 5/lecture05.pdf",
     "TODO.md",
     "Formal Methods/Week 4/Week 4 Lecture Notes.md",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
