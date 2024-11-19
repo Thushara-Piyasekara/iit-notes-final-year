@@ -11,14 +11,16 @@
             "id": "5287da83dd7c7a25",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 4/Week 4 Lecture Notes.md",
-                "mode": "source",
-                "source": false
+                "file": "Formal Methods/Week 6/week_6_tut.pdf",
+                "page": 1,
+                "left": -6,
+                "top": 796,
+                "zoom": 2.4325980392156863
               },
-              "icon": "lucide-file",
-              "title": "Week 4 Lecture Notes"
+              "icon": "lucide-file-text",
+              "title": "week_6_tut"
             }
           }
         ]
@@ -192,12 +194,12 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "b71ac319e7d5373e",
+  "active": "5287da83dd7c7a25",
   "lastOpenFiles": [
+    "Formal Methods/Week 4/Week 4 Lecture Notes.md",
     "Formal Methods/Week 5/Week 5 - Lec Notes.md",
     "Formal Methods/Week 5/lecture05.pdf",
     "TODO.md",
-    "Formal Methods/Week 4/Week 4 Lecture Notes.md",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Concurrent Programming/Week 4/Week 4.md",
     "Formal Methods/Week 5/lecture05.pdf.crdownload",
