@@ -6,7 +6,7 @@
       {
         "id": "5a62682351c5f5a8",
         "type": "tabs",
-        "dimension": 59.83606557377049,
+        "dimension": 56.10766045548654,
         "children": [
           {
             "id": "36e06d6cd61e4b2e",
@@ -14,7 +14,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 5/lecture05.pdf"
+                "file": "Formal Methods/Week 5/lecture05.pdf",
+                "page": 15,
+                "left": -7,
+                "top": 46,
+                "zoom": 2.133201041795858
               },
               "icon": "lucide-file-text",
               "title": "lecture05"
@@ -39,7 +43,7 @@
       {
         "id": "8fb213873963938c",
         "type": "tabs",
-        "dimension": 40.16393442622951,
+        "dimension": 43.89233954451346,
         "children": [
           {
             "id": "5287da83dd7c7a25",
