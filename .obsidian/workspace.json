@@ -6,7 +6,7 @@
       {
         "id": "8fb213873963938c",
         "type": "tabs",
-        "dimension": 59.04255319148937,
+        "dimension": 22.172949002217297,
         "children": [
           {
             "id": "810330dd7e6e27d2",
@@ -28,19 +28,83 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf"
+                "file": "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
+                "page": 1,
+                "left": -14,
+                "top": 651,
+                "zoom": 1.0784913216726362
               },
               "icon": "lucide-file-text",
               "title": "2023_6SENG005W_ICT_MOCK"
             }
+          },
+          {
+            "id": "25187eaf36747a2f",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Formal Methods/ICT_mock/paper_IIT_2023_without_answers.pdf",
+                "page": 1,
+                "zoom": 1
+              },
+              "icon": "lucide-file-text",
+              "title": "paper_IIT_2023_without_answers"
+            }
+          },
+          {
+            "id": "1dc39d41c171fac8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Formal Methods/Week 7/week_7_lecture.pdf",
+                "page": 22,
+                "left": -9,
+                "top": 126,
+                "zoom": 1.7466617057340115
+              },
+              "icon": "lucide-file-text",
+              "title": "week_7_lecture"
+            }
+          },
+          {
+            "id": "ba659e083c3be952",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Formal Methods/Week 5/lecture05.pdf",
+                "page": 1,
+                "left": 12,
+                "top": 276,
+                "zoom": 2.2
+              },
+              "icon": "lucide-file-text",
+              "title": "lecture05"
+            }
+          },
+          {
+            "id": "a24bea64060d0d26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formal Methods/Week 5/Week 5 - Lec Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 5 - Lec Notes"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "02fbd70e8b467250",
         "type": "tabs",
-        "dimension": 40.95744680851064,
+        "dimension": 77.8270509977827,
         "children": [
           {
             "id": "a76111dff032af36",
@@ -122,8 +186,8 @@
               "state": {
                 "file": "Formal Methods/Week 2/Lecture 2.pdf",
                 "page": 26,
-                "left": -40,
-                "top": 72,
+                "left": -46,
+                "top": 76,
                 "zoom": 1.5
               },
               "icon": "lucide-file-text",
@@ -131,31 +195,31 @@
             }
           },
           {
-            "id": "ba659e083c3be952",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Methods/Week 5/lecture05.pdf",
-                "page": 11,
-                "left": -9,
-                "top": 252,
-                "zoom": 1.7466617057340115
-              },
-              "icon": "lucide-file-text",
-              "title": "lecture05"
-            }
-          },
-          {
             "id": "c55919a886c616e7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Formal Methods/Week 7/week_7_lecture.pdf"
+                "file": "Formal Methods/ICT_mock/Answers/23_mock.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "week_7_lecture"
+              "icon": "lucide-file",
+              "title": "23_mock"
+            }
+          },
+          {
+            "id": "6d12dfe35249224d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formal Methods/Week 5/Week 5 - Lec Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Week 5 - Lec Notes"
             }
           },
           {
@@ -180,8 +244,6 @@
               "state": {
                 "file": "Formal Methods/Week 6/lecture06.pdf",
                 "page": 1,
-                "left": -12,
-                "top": 276,
                 "zoom": 1.217495555831163
               },
               "icon": "lucide-file-text",
@@ -195,10 +257,8 @@
               "type": "pdf",
               "state": {
                 "file": "Formal Methods/Week 6/lecture06.pdf",
-                "page": 5,
-                "left": -24,
-                "top": 148,
-                "zoom": 0.6180495266443425
+                "page": 1,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "lecture06"
@@ -221,7 +281,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 10
       }
     ],
     "direction": "vertical"
@@ -252,7 +312,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "domain",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -273,8 +333,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -394,23 +453,27 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "c55919a886c616e7",
+  "active": "bc464225af08ad24",
   "lastOpenFiles": [
-    "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
-    "Formal Methods/Week 7/week_7_lecture.pdf",
+    "IMG_5965.jpeg",
+    "Formal Methods/ICT_mock/Answers/2023 Real ICT.md",
     "Formal Methods/Week 6/lecture06.pdf",
+    "Formal Methods/Week 5/Week 5 - Lec Notes.md",
+    "Formal Methods/ICT_mock/Answers/23_mock.md",
+    "Formal Methods/ICT_mock/paper_IIT_2023_without_answers.pdf",
+    "Formal Methods/Week 7/week_7_lecture.pdf",
     "Formal Methods/Week 5/lecture05.pdf",
+    "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
+    "Formal Methods/Week 6/Week 6 - Lec Notes.md",
+    "Formal Methods/Week 5/Untitled.md",
+    "Concurrent Programming/Week 4/Coursework - Discussion.md",
+    "Formal Methods/ICT_mock/paper_IIT_2023_without_answers.pdf.crdownload",
     "Formal Methods/Week 2/Lecture 2.pdf",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
-    "Formal Methods/Week 5/Week 5 - Lec Notes.md",
     "Formal Methods/Week 4/Week 4 Lecture Notes.md",
-    "Formal Methods/Week 6/Week 6 - Lec Notes.md",
-    "Formal Methods/ICT_mock/Answers/23_mock.md",
     "Formal Methods/ICT_mock/Answers",
     "Formal Methods/Week 6/week_6_tut.pdf",
     "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf.crdownload",
-    "Formal Methods/ICT_mock",
-    "Formal Methods/Week 9/tutorial/lifts_partial/Shared.mch",
     "Formal Methods/Week 5/Tutorial/Tutorial_5.md",
     "Formal Methods/Week 9/Screenshot from 2024-11-20 09-49-14.png",
     "TODO.md",
@@ -421,13 +484,11 @@
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
     "Resources/Pasted image 20241023102317.png",
     "Resources/Pasted image 20241023102223.png",
-    "Concurrent Programming/Week 4/Coursework - Discussion.md",
     "Resources/Pasted image 20241018095451.png",
     "Resources/Pasted image 20241018094934.png",
     "Resources/Pasted image 20241018093226.png",
     "Resources/Pasted image 20241018091954.png",
     "Resources/Pasted image 20241018091014.png",
-    "Resources/Pasted image 20241018090854.png",
     "Concurrent Programming/Week 4/Week 4 tutorial.md",
     "README.md",
     "Formal Methods/Week 2/Untitled.md",
@@ -439,8 +500,6 @@
     "Formal Methods/Week 3/Untitled.md",
     "Concurrent Programming/Week 2/Lecture 2.md",
     "Concurrent Programming/Week 1/HomeWork - Week 1.md",
-    "Concurrent Programming/Week 1/HomeWork/Untitled.md",
-    "Concurrent Programming/Week 1/HomeWork/Untitled 1.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

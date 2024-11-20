@@ -13,7 +13,7 @@
 # Function Classes
 
 ## Injective Functions
-- Every target element relates to at most one source element.
+- Target elements with relations relates to at most one source element.
 - Range of the relation has no duplicates.
 ## Surjective Functions
 - Every target element has a relation with one or more source elements.
