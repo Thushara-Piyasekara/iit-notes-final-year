@@ -166,5 +166,23 @@
       ],
       "key": "1"
     }
+  ],
+  "pdf-plus:rectangular-selection": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "workspace:move-to-new-window": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "W"
+    }
   ]
 }

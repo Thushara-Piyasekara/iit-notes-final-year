@@ -50,5 +50,6 @@ SETS
 INVARIANT
 	dislikes : COMMITTEE <-> COMMITTEE = {Marry -> Anne, Marry -> Jack, Peter -> Marlon}
 	
-
 ```
+
+![[2023_ICT_MCH.jpeg]]
