@@ -16,7 +16,7 @@ public class BankAccount {
 	// balance variable must happen inside synchronized 
 	// block
 	
-j	public BankAccount(double balance, String accountNo) {
+	public BankAccount(double balance, String accountNo) {
 		super();
 		this.balance = balance;
 		this.accountNo = accountNo;
