@@ -6,7 +6,7 @@
       {
         "id": "8fb213873963938c",
         "type": "tabs",
-        "dimension": 47.57045675413023,
+        "dimension": 48.250728862973766,
         "children": [
           {
             "id": "b0dee9d495d474c2",
@@ -29,8 +29,10 @@
               "type": "pdf",
               "state": {
                 "file": "Formal Methods/Week 6/lecture06.pdf",
-                "page": 1,
-                "zoom": 1
+                "page": 4,
+                "left": -8,
+                "top": 69,
+                "zoom": 1.9450990119475795
               },
               "icon": "lucide-file-text",
               "title": "lecture06"
@@ -58,7 +60,7 @@
       {
         "id": "f6b1f827acea96cc",
         "type": "tabs",
-        "dimension": 52.42954324586978,
+        "dimension": 51.74927113702624,
         "children": [
           {
             "id": "8aa263c92a78664d",
@@ -246,14 +248,14 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "8aa263c92a78664d",
+  "active": "e29c0155c9bf87c9",
   "lastOpenFiles": [
-    "Formal Methods/Week 6/lecture06.pdf",
+    "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Formal Methods/Week 6/Week 6 - Lec Notes.md",
+    "Formal Methods/Week 6/lecture06.pdf",
     "Resources/Pasted image 20241121122817.png",
     "Resources/Pasted image 20241121122145.png",
     "Formal Methods/Week 5/lecture05.pdf",
-    "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Formal Methods/Week 5/Untitled.md",
     "Formal Methods/ICT_mock/Answers/2023 Real ICT.md",
     "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
