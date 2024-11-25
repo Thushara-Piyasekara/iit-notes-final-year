@@ -32,6 +32,7 @@ MACHINE
 Take the above example,
 ### MACHINE
 - Name of the abstract machine.
+---
 ### SETS
 - **Constant sets**. These dont change.
 - We can declare string outputs of operations here.
@@ -44,6 +45,9 @@ Take the above example,
 ### PROPERTIES
 - Defines the values of the **CONSTANTS**.
 - Divided with `&` symbol.
+- See,
+	![[Lecture 1.pdf#page=14&rect=42,177,292,233|Lecture 1, p.14]]
+--- 
 ### VARIABLES
 - Defines the names of the variables. These could be sets or traditional variables.
 - Divided with `,` symbol.
@@ -51,9 +55,49 @@ Take the above example,
 - Defines the type & properties of the variables.
 - This is a single statement.
 - Divided with `&` symbol.
-- 
+### INITIALIZATION
+- Uses assignment operator. **:=**
+- Divided using `||` symbol.
+- Or we can initialize everything as follows without using `||`,
+	![[Lecture 2.pdf#page=52&rect=33,105,277,146|Lecture 2, p.45]]
+---
+### OPERATIONS
+- Functions that can query or change the **VARIABLE** values.
+- These can have input parameters,
+```
+ addNewHouse(newHouse) =
+            PRE
+                newHouse : NATURAL1 & newHouse /: houseNumbers & 
+                card(houseNumbers) < MaxNumberOfHouses
+            THEN
+                houseNumbers := houseNumbers \/ {newHouse}
+            END;
+```
+- Also return values,
+```
+ans <-- getsPapers(houseNumber)=
+            PRE
+                houseNumber : houseNumbers
+            THEN
+                ans := 1
+            END;
+```
 
 
+## Abstract Machine Parameters
+- This introduces **Sets, Constants and Constraints** for abstract machines.
 
+### SETS and Constants as Machine parameters
+- These are defined as inputs for the machine,
+	![[Lecture Slides.pdf#page=22&rect=32,92,198,116|Lecture Slides, p.22]]
+- **SETS** are always UPPER CASE. `GRADE` is a SET in the above example.
+- **Constants** are lower case. `top, maxreg` are constants.
+
+### CONSTRAINTS
+- These are similar to **INVARIANTS**, but for machine parameters. 
+	![[Lecture Slides.pdf#page=23&rect=33,152,191,178|Lecture Slides, p.23]]
+
+
+## Summary of abstract machines
 
 ![[Lecture Slides.pdf#page=19&rect=23,25,330,225|Lecture Slides, p.19]]

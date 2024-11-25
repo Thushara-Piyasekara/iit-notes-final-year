@@ -29,10 +29,10 @@
               "type": "pdf",
               "state": {
                 "file": "Formal Methods/Week 1/Lecture 1.pdf",
-                "page": 12,
+                "page": 22,
                 "left": -7,
-                "top": 26,
-                "zoom": 2.060854107238828
+                "top": 90,
+                "zoom": 2.011244780685436
               },
               "icon": "lucide-file-text",
               "title": "Lecture 1"
@@ -45,13 +45,29 @@
               "type": "pdf",
               "state": {
                 "file": "Formal Methods/Week 2/Lecture 2.pdf",
-                "page": 50,
-                "left": -7,
-                "top": 18,
-                "zoom": 2.060854107238828
+                "page": 51,
+                "left": -10,
+                "top": 172,
+                "zoom": 1.5151515151515154
               },
               "icon": "lucide-file-text",
               "title": "Lecture 2"
+            }
+          },
+          {
+            "id": "ff3c3c8e4a28f8c8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Formal Methods/Week 3/Lecture Slides.pdf",
+                "page": 22,
+                "left": -7,
+                "top": 86,
+                "zoom": 2.0112447806854354
+              },
+              "icon": "lucide-file-text",
+              "title": "Lecture Slides"
             }
           },
           {
@@ -63,8 +79,8 @@
                 "file": "Formal Methods/Week 3/Lecture Slides.pdf",
                 "page": 18,
                 "left": -7,
-                "top": 50,
-                "zoom": 2.060854107238828
+                "top": 54,
+                "zoom": 2.011244780685436
               },
               "icon": "lucide-file-text",
               "title": "Lecture Slides"
@@ -119,7 +135,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "f6b1f827acea96cc",
@@ -355,12 +371,16 @@
   },
   "active": "7eac76d44bb3de85",
   "lastOpenFiles": [
-    "Formal Methods/ICT_mock/Answers/23_answers/WhatsApp Image 2024-11-22 at 9.47.24 PM.jpeg",
-    "Formal Methods/Week 1/Lecture 1.pdf",
-    "Formal Methods/Week 2/Lecture 2.pdf",
-    "Formal Methods/ICT_mock/paper_IIT_2023_without_answers.pdf",
     "Formal Methods/Week 3/Lecture Slides.pdf",
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
+    "Formal Methods/Week 8/Week 8 - Lec notes.md",
+    "Formal Methods/Week 1/Untitled 1.md",
+    "Formal Methods/Week 4/lecture04.pdf",
+    "Formal Methods/Week 4/Tutorial/Sets Tutorial.md",
+    "Formal Methods/Week 2/Lecture 2.pdf",
+    "Formal Methods/Week 1/Lecture 1.pdf",
+    "Formal Methods/ICT_mock/Answers/23_answers/WhatsApp Image 2024-11-22 at 9.47.24 PM.jpeg",
+    "Formal Methods/ICT_mock/paper_IIT_2023_without_answers.pdf",
     "Formal Methods/ICT_mock/Answers/2023 Real ICT.md",
     "Formal Methods/Week 2/Week 2 Lec notes.md",
     "Formal Methods/Week 7/Week 7 - lec note.md",
@@ -380,7 +400,6 @@
     "Formal Methods/ICT_mock/PaperRound_mch/PaperRound - Final.md",
     "Formal Methods/ICT_mock/PaperRound_mch",
     "Formal Methods/Week 6/Week 6 - Lec Notes.md",
-    "Formal Methods/Week 6/lecture06.pdf",
     "Formal Methods/Week 5/Untitled.md",
     "Formal Methods/Week 5/Week 5 - Lec Notes.md",
     "Concurrent Programming/Week 1/HomeWork - Week 1.md",
@@ -390,7 +409,6 @@
     "Formal Methods/Week 5/Tutorial/Tutorial_5.md",
     "TODO.md",
     "Concurrent Programming/Week 4/Week 4.md",
-    "Formal Methods/Week 4/Tutorial/Sets Tutorial.md",
     "Formal Methods/Week 4/Tutorial/Structure_Diagram.excalidraw.md",
     "Concurrent Programming/Week 4/Week 4 tutorial.md",
     "README.md",
@@ -398,8 +416,6 @@
     "Excalidraw/Drawing 2024-10-04 11.04.18.excalidraw.md",
     "Concurrent Programming/Week 3/Week 3 Tutorial.md",
     "Formal Methods/Week 3/Lecture 3 notes.md",
-    "Time Tables.md",
-    "Concurrent Programming/Week 3/Lecture 3.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
