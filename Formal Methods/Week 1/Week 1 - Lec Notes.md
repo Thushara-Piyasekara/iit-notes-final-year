@@ -99,5 +99,5 @@ ans <-- getsPapers(houseNumber)=
 
 
 ## Summary of abstract machines
-
+	
 ![[Lecture Slides.pdf#page=19&rect=23,25,330,225|Lecture Slides, p.19]]
