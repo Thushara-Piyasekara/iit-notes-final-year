@@ -1,0 +1,2 @@
+- Try to use concepts in week 8. If we don't modularize the machine, we will get less marks.
+- 

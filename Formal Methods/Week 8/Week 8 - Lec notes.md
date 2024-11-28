@@ -31,11 +31,9 @@ The lecture discusses techniques to structure B specifications using multiple B 
 - Incorporates another machine’s data and operations but hides its interface.
 - Example: Machine `Locks` includes `Doors`.
   - The `Locks` machine can access the state and operations of `Doors`.
-
 ### 2. **PROMOTES**
 - Promotes selected operations of an included machine to the interface of the including machine.
 - Example: Safes machine promotes `opendoor` and `lockdoor` operations from `Locks`.
-
 ### 3. **EXTENDS**
 - All operations of the extended machine are promoted.
 - Example: Machine `Registrar` extends `Marriage`, inheriting all its operations.
