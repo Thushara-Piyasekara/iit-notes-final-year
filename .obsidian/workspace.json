@@ -21,22 +21,6 @@
             }
           },
           {
-            "id": "6d4401dd32b9134b",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Formal Methods/Week 6/lecture06.pdf",
-                "page": 8,
-                "left": -11,
-                "top": 209,
-                "zoom": 1.3890611434949771
-              },
-              "icon": "lucide-file-text",
-              "title": "lecture06"
-            }
-          },
-          {
             "id": "43c2cca0ed9ac118",
             "type": "leaf",
             "state": {
@@ -44,12 +28,26 @@
               "state": {
                 "file": "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
                 "page": 1,
-                "left": -14,
-                "top": 527,
+                "left": -42,
+                "top": 535,
                 "zoom": 1.0835310007458725
               },
               "icon": "lucide-file-text",
               "title": "2023_6SENG005W_ICT_MOCK"
+            }
+          },
+          {
+            "id": "a7a87b2091976333",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Formal Methods/FM tuts/t6/Family.mch",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Family"
             }
           },
           {
@@ -59,9 +57,9 @@
               "type": "pdf",
               "state": {
                 "file": "Formal Methods/Coursework/formal-methods-coursework.pdf",
-                "page": 2,
-                "left": -14,
-                "top": 20,
+                "page": 3,
+                "left": -42,
+                "top": 721,
                 "zoom": 1.0834509171537996
               },
               "icon": "lucide-file-text",
@@ -187,7 +185,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5100517272949
+    "width": 333.5100517272949,
+    "collapsed": true
   },
   "right": {
     "id": "3e09eeacae2adf9b",
@@ -304,12 +303,13 @@
   },
   "active": "fe6614cf0f14c9fe",
   "lastOpenFiles": [
+    "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
+    "Formal Methods/FM tuts/t6/Family.mch",
+    "Formal Methods/Coursework/formal-methods-coursework.pdf",
     "Formal Methods/Week 8/Week 8 - Lec notes.md",
     "Formal Methods/Week 8/Week-09_Lecture_Structuring_B_Specifications.pdf",
-    "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
-    "Formal Methods/Coursework/CW Notes.md",
-    "Formal Methods/Coursework/formal-methods-coursework.pdf",
     "Formal Methods/Week 6/lecture06.pdf",
+    "Formal Methods/Coursework/CW Notes.md",
     "Formal Methods/ICT_mock/Answers/2023 Real ICT.md",
     "Formal Methods/Week 6/Week 6 - Lec Notes.md",
     "Formal Methods/Week 7/Week 7 - lec note.md",
