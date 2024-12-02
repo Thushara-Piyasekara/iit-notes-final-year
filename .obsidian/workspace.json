@@ -14,10 +14,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 8/Week-09_Lecture_Structuring_B_Specifications.pdf"
+                "file": "Formal Methods/Week 6/week_6_tut.pdf",
+                "page": 1,
+                "left": -23,
+                "top": 795,
+                "zoom": 0.6495098039215687
               },
               "icon": "lucide-file-text",
-              "title": "Week-09_Lecture_Structuring_B_Specifications"
+              "title": "week_6_tut"
             }
           },
           {
@@ -303,11 +307,11 @@
   },
   "active": "fe6614cf0f14c9fe",
   "lastOpenFiles": [
+    "Formal Methods/Week 8/Week-09_Lecture_Structuring_B_Specifications.pdf",
     "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
     "Formal Methods/FM tuts/t6/Family.mch",
     "Formal Methods/Coursework/formal-methods-coursework.pdf",
     "Formal Methods/Week 8/Week 8 - Lec notes.md",
-    "Formal Methods/Week 8/Week-09_Lecture_Structuring_B_Specifications.pdf",
     "Formal Methods/Week 6/lecture06.pdf",
     "Formal Methods/Coursework/CW Notes.md",
     "Formal Methods/ICT_mock/Answers/2023 Real ICT.md",
