@@ -6,7 +6,7 @@
       {
         "id": "3b68768f04f81064",
         "type": "tabs",
-        "dimension": 81.65137614678899,
+        "dimension": 54.03617115130128,
         "children": [
           {
             "id": "43c2cca0ed9ac118",
@@ -14,14 +14,14 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
-                "page": 1,
-                "left": -14,
-                "top": 543,
-                "zoom": 1.0734516425993994
+                "file": "Formal Methods/Week 5/lecture05.pdf",
+                "page": 20,
+                "left": -6,
+                "top": 109,
+                "zoom": 2.424655835297036
               },
               "icon": "lucide-file-text",
-              "title": "2023_6SENG005W_ICT_MOCK"
+              "title": "lecture05"
             }
           },
           {
@@ -59,7 +59,7 @@
       {
         "id": "afd4ca1d71bdaa0d",
         "type": "tabs",
-        "dimension": 18.34862385321101,
+        "dimension": 45.963828848698725,
         "children": [
           {
             "id": "44a241545086c4c0",
@@ -169,7 +169,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -291,15 +292,15 @@
   },
   "active": "43c2cca0ed9ac118",
   "lastOpenFiles": [
+    "Formal Methods/Week 6/lecture06.pdf",
+    "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
     "Formal Methods/Week 6/Tutorial/Family.mch",
     "Formal Methods/Week 6/week_6_tut_b.pdf",
     "Formal Methods/Week 6/week_6_tut.pdf",
     "Formal Methods/Week 8/Week 8 - Lec notes.md",
     "Formal Methods/Week 8/Week-09_Lecture_Structuring_B_Specifications.pdf",
-    "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
     "Formal Methods/FM tuts/t6/Family.mch",
     "Formal Methods/Coursework/formal-methods-coursework.pdf",
-    "Formal Methods/Week 6/lecture06.pdf",
     "Formal Methods/Coursework/CW Notes.md",
     "Formal Methods/ICT_mock/Answers/2023 Real ICT.md",
     "Formal Methods/Week 6/Week 6 - Lec Notes.md",
