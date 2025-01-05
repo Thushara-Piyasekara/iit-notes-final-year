@@ -6,7 +6,7 @@
       {
         "id": "3b68768f04f81064",
         "type": "tabs",
-        "dimension": 54.03617115130128,
+        "dimension": 54.036171151301275,
         "children": [
           {
             "id": "43c2cca0ed9ac118",
@@ -14,11 +14,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 5/lecture05.pdf",
-                "page": 20,
-                "left": -6,
-                "top": 109,
-                "zoom": 2.424655835297036
+                "file": "Formal Methods/Week 5/lecture05.pdf"
               },
               "icon": "lucide-file-text",
               "title": "lecture05"
