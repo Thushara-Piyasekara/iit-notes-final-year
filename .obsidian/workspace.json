@@ -6,7 +6,7 @@
       {
         "id": "3b68768f04f81064",
         "type": "tabs",
-        "dimension": 54.036171151301275,
+        "dimension": 55.31443755535873,
         "children": [
           {
             "id": "43c2cca0ed9ac118",
@@ -42,9 +42,9 @@
               "state": {
                 "file": "Formal Methods/Coursework/formal-methods-coursework.pdf",
                 "page": 3,
-                "left": -42,
-                "top": 721,
-                "zoom": 1.0834509171537996
+                "left": -156,
+                "top": 842,
+                "zoom": 1
               },
               "icon": "lucide-file-text",
               "title": "formal-methods-coursework"
@@ -55,7 +55,7 @@
       {
         "id": "afd4ca1d71bdaa0d",
         "type": "tabs",
-        "dimension": 45.963828848698725,
+        "dimension": 44.68556244464127,
         "children": [
           {
             "id": "44a241545086c4c0",
@@ -286,8 +286,11 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "43c2cca0ed9ac118",
+  "active": "44a241545086c4c0",
   "lastOpenFiles": [
+    "Formal Methods/Week 5/lecture05.pdf",
+    "Formal Methods/FM tuts/t6/Family.mch",
+    "Formal Methods/Coursework/formal-methods-coursework.pdf",
     "Formal Methods/Week 6/lecture06.pdf",
     "Formal Methods/ICT_mock/2023_6SENG005W_ICT_MOCK.pdf",
     "Formal Methods/Week 6/Tutorial/Family.mch",
@@ -295,8 +298,6 @@
     "Formal Methods/Week 6/week_6_tut.pdf",
     "Formal Methods/Week 8/Week 8 - Lec notes.md",
     "Formal Methods/Week 8/Week-09_Lecture_Structuring_B_Specifications.pdf",
-    "Formal Methods/FM tuts/t6/Family.mch",
-    "Formal Methods/Coursework/formal-methods-coursework.pdf",
     "Formal Methods/Coursework/CW Notes.md",
     "Formal Methods/ICT_mock/Answers/2023 Real ICT.md",
     "Formal Methods/Week 6/Week 6 - Lec Notes.md",
@@ -305,7 +306,6 @@
     "Formal Methods/Week 1/Week 1 - Lec Notes.md",
     "Formal Methods/Week 2/Lecture 2.pdf",
     "Formal Methods/ICT_mock/Summary_B-Method_Abstract_Machine_Notation_AMN (2).pdf",
-    "Formal Methods/ICT_mock/paper_IIT_2023_without_answers.pdf",
     "Formal Methods/ICT_mock/Answers/23_mock.md",
     "Formal Methods/ICT_mock/Answers/23_answers/WhatsApp Image 2024-11-22 at 9.47.26 PM.jpeg",
     "Formal Methods/ICT_mock/Answers/23_answers/WhatsApp Image 2024-11-22 at 9.47.25 PM.jpeg",
