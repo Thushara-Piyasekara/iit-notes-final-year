@@ -14,7 +14,11 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Formal Methods/Week 5/lecture05.pdf"
+                "file": "Formal Methods/Week 5/lecture05.pdf",
+                "page": 17,
+                "left": -24,
+                "top": 104,
+                "zoom": 0.6180495266443424
               },
               "icon": "lucide-file-text",
               "title": "lecture05"
@@ -170,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5100517272949,
-    "collapsed": true
+    "width": 333.5100517272949
   },
   "right": {
     "id": "3e09eeacae2adf9b",
